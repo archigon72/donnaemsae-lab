@@ -88,6 +88,7 @@ document.addEventListener('DOMContentLoaded',async()=>{
   if(code)selectTicker(code);else toast(rows.length?'검색 결과에서 종목을 선택하세요.':'검색 결과가 없습니다.');
  });
  window.addEventListener('popstate',()=>{
+  document.getElementById('distribution-history-dialog')?.close();
   const code=new URLSearchParams(location.search).get('code')||'498400';
   selectTicker(code,{historyMode:'none'});
  });
