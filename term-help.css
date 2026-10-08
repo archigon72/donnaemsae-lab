@@ -25,7 +25,6 @@ body.mobile .term-help-trigger::before{left:-13px;top:-22px;width:44px;height:44
 /* Compact analysis navigation, including the terms link. */
 .section-tabs{gap:4px}
 .section-tabs :is(button,.analysis-tab){flex:1;min-width:0;padding:9px 10px}
-.section-tabs a.analysis-tab{display:flex;align-items:center;justify-content:center;color:inherit;border-radius:8px}
 .mobile .section-tabs{gap:2px}
 .mobile .section-tabs :is(button,.analysis-tab){flex:1 0 auto;padding:7px 4px;font-size:11px;min-height:44px}
 
