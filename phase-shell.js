@@ -5,17 +5,19 @@ document.addEventListener('DOMContentLoaded',()=>{
  document.querySelectorAll('a[href]').forEach(a=>{
   const href=a.getAttribute('href'),file=href?.split('?')[0];
   if(!deferred.has(file))return;
-  if(a.classList.contains('device-link')){a.href='mobile-detail.html';return;}
+  if(a.classList.contains('device-link')){a.href='mobile-detail.html';a.textContent='ETF 상세분석 · 모바일';return;}
   if(a.classList.contains('back-link')){a.href='index.html';a.textContent='홈';return;}
   if(a.closest('.bottom-nav')&&href.includes('tab=home')){a.href='index.html';return;}
+  a.removeAttribute('href');a.setAttribute('aria-disabled','true');a.tabIndex=-1;
  });
+ document.querySelectorAll('[data-placeholder],[data-mobile-placeholder]').forEach(b=>{b.disabled=true;b.setAttribute('aria-disabled','true');});
  // Main content is repainted when a ViewModel arrives. Delegate deferred links
  // so freshly rendered back-links cannot navigate to an absent holdings page.
  document.addEventListener('click',e=>{
   const a=e.target.closest('a[href]');if(!a)return;
   const href=a.getAttribute('href'),file=href?.split('?')[0];
   if(!deferred.has(file))return;
-  e.preventDefault();toast('이 기능은 다음 단계에서 연결합니다.');
+  e.preventDefault();
  });
  const form=document.getElementById('search-form');
  if(form){

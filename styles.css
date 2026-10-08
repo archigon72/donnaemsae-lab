@@ -17,3 +17,7 @@ body.mobile[data-view="detail"] #perf .performance-metrics .metric:last-child{gr
 body.mobile[data-view="detail"] #perf .metric > span{word-break:keep-all;overflow-wrap:normal;line-height:1.4;min-height:2.8em;display:flex;align-items:center;justify-content:center}
 body.mobile[data-view="detail"] #perf .metric strong{white-space:nowrap;word-break:normal;overflow-wrap:normal}
 body.mobile[data-view="detail"] #perf .metric small{word-break:keep-all;overflow-wrap:normal;line-height:1.4}
+
+/* Minimal test-build states; layout remains unchanged. */
+.neutral{color:var(--text,#e5edf7)}
+button:disabled,[aria-disabled="true"]{opacity:.45;cursor:default;pointer-events:none}
