@@ -1,0 +1,27 @@
+/* Only the approved section 2 finish. Other sections retain their existing CSS. */
+#perf .performance-metrics {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+#perf .performance-metrics .perf-combined {
+  grid-column: 1 / -1;
+}
+#perf .perf-distribution {
+  border-top: 1px solid var(--border);
+  margin-top: 14px;
+  padding-top: 14px;
+}
+#perf .perf-distribution strong {
+  font-size: 20px;
+}
+#perf .perf-distribution > span {
+  display: block;
+  color: var(--muted);
+}
+#perf .perf-combined > span,
+#perf .perf-distribution > span {
+  word-break: keep-all;
+  overflow-wrap: anywhere;
+}
+#perf .performance-metrics .metric {
+  min-width: 0;
+}

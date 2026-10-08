@@ -1,0 +1,10 @@
+#facts .facts-intro {margin-top:0;font-size:12px;word-break:keep-all}
+#facts .facts-summary {margin:14px 0 0;padding:0;list-style:none;display:grid;gap:12px}
+#facts .facts-summary li {line-height:1.7;word-break:keep-all;overflow-wrap:anywhere}
+#facts .facts-summary li > b {color:var(--text);font-weight:700}
+#facts .facts-value {font-weight:700;color:var(--text);white-space:nowrap}
+#facts .facts-characteristic {margin-top:18px;padding-top:14px;border-top:1px solid var(--border)}
+#facts .facts-characteristic h3 {font-size:14px;margin:0 0 7px}
+#facts .facts-characteristic p {font-size:13px;line-height:1.7;word-break:keep-all;overflow-wrap:anywhere}
+body.mobile #facts .facts-summary {font-size:12px;gap:10px}
+body.mobile #facts .facts-characteristic p {font-size:12px}

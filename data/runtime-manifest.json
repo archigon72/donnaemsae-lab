@@ -1,0 +1,245 @@
+{
+  "schema_version": "phase1-runtime-v1",
+  "snapshot": {
+    "snapshot_id": "proof-20261002-leading-null-v1",
+    "engine_hash": "11a8b025cc2fe4272d935a60eb8c2d4a8076f8c56ed058f9531e73fdb0d70678",
+    "integration_hash": "1ebedee762311ad20de09c56c009ae4d1deeb6b9e4d5b49a060b139ae608179d",
+    "input_policy_version": "leading-nav-null-common-v1",
+    "schema_version": "proof-v1",
+    "data_cutoff": "2026-10-02"
+  },
+  "pyodide_version": "0.29.3",
+  "worker_version": "phase1-worker-v1",
+  "files": {
+    "runtime_source.zip": "86550063cb17086b52bb3accd7f71d5df4ecfdabc11fd1c16c33249fdcf056da",
+    "inputs/0004G0.json": "9e1577163114489414ff366a751c49282fc220bcc31505cbb53f1c20b7ba5228",
+    "inputs/0005A0.json": "caabb17fd84df200d0f8a3fc080ca3338a1ea48e7fcf49a577a6b5071b633835",
+    "inputs/0008S0.json": "d2c0ffdf758acff647fe292a4dbbde562c92046220b2308d4c40c1df7e22932a",
+    "inputs/0013P0.json": "77943a9b77d0f269999226b7b8c6d065b4f1d366a25b129661b55a08af5a80b2",
+    "inputs/0018C0.json": "84584270c7381c5f1b8d04164d8b5418cbd2382c7de4fb5a40bfbd809d749095",
+    "inputs/0022T0.json": "2db7d2b987cf89566e0c28b51d431dbffbe15da9179277f3991f5132d465fe56",
+    "inputs/0046Y0.json": "0b922ec9b84310caa0941e629bd3e9b1659ea3c2b89c4b95c56b0945e817d2a2",
+    "inputs/0049M0.json": "cfdf67b85ba21276f9ab33ef6f4c7116c2ef17fb6bcb53be4a8fd0d339c90601",
+    "inputs/0052D0.json": "59c540a30883c47450bba830fa05b4c23fd41880456d37c767ad46e379273a31",
+    "inputs/0084D0.json": "5d6fda2e3c470ea261abf55e787a1959f5340ed3c4ee172052d02a9911171d8e",
+    "inputs/0084E0.json": "04f938ee5e57e34d49b7092dd103afc848c12e3db63ff4c6bf884861e919782a",
+    "inputs/0089C0.json": "1d3f543d189674701509caba3fc7029bab8f21a465f2e7cbf6f0969ab9c38378",
+    "inputs/0089D0.json": "1467d092c7a25469d1a31a1870a907f7cf4c0149ffee90bd1ae7bc35c9bc5a1f",
+    "inputs/0094L0.json": "dfec5d2a922fefd853ad209b0e58d654891195fe16a6e0841c5c799bf980402b",
+    "inputs/0094M0.json": "b21c6ab78645e0a421db4233669723f990f87ff3554cb158bc8323852a5d58b8",
+    "inputs/0097L0.json": "10340673115a87e6c013feddf3b31c00a76b4db72388899d02a0fac5fc288ac9",
+    "inputs/0098N0.json": "9fddddd376d85dd4249551dc0bbafce0a941472f85da1b33ee8f8275de7459c7",
+    "inputs/0104N0.json": "7a4592622fc241a2e52b2590f17cd92dd64f37eac21716de1a3d6301984a5c35",
+    "inputs/0104P0.json": "ec490112b345ebc6f1ae1e2298ec5f41922f6e0987070581305d012f219d5d27",
+    "inputs/0105E0.json": "79753f74b462c676399955a9b2a86f5c7594ce48127bbd7d5e0a2cab9adc521f",
+    "inputs/0107F0.json": "28c0d5540afcb4ff177cacbc25711a21f8d58825ac6661ad1da2983e50436076",
+    "inputs/0111J0.json": "08f7fd462d479aba8eefe1069fdcc9b87af8e78800950291b8fe22428e2d6c97",
+    "inputs/0115C0.json": "b924deed501fac5afd3438c358e77982b7c9cffb1654a874955ee479861b2217",
+    "inputs/0127T0.json": "470e89a32e4af84d53a93d4b924d02b850eb48492e4e3df1c61b3ed2b009dbf7",
+    "inputs/0127V0.json": "9041f75bf68d82d44b9f843ad661af6d4f75915b69d0a43cd26d7f3274aaff6b",
+    "inputs/0128D0.json": "e0c7dce2b037ef8e15fde0810fb8d30ffe39a40e1ac6c6f8d93a0631d8e205d1",
+    "inputs/0138T0.json": "3c168c94510627d52a4557fa8643e8a416c9f8cdcc3ebcb2c16faa3b22951618",
+    "inputs/0139P0.json": "1250cb1cdc643f85a0f565996f1f31458514ced3b2ee244f62f0aa47d2e4ab72",
+    "inputs/0144L0.json": "854708ab377af95136b20b6776667c99953bfd6e1655bd077eb80ff5a64e9bc6",
+    "inputs/0152E0.json": "2a24fe03992122c38c37c95674e3ce8407ce3a851f38f59e17a85b1105423788",
+    "inputs/0153K0.json": "2624974ff497dbde6f2d563a7a3f4332587ee367c9422709e3c584ec7d491ebf",
+    "inputs/0153X0.json": "b0b8813c80275cdb456240da34bb4183f6d5294d38691f9c35ecfc9db7cb1c04",
+    "inputs/0167B0.json": "73b83a6e8fa9022b712d9d69815fefe81d094a0b407661aee8597a2e6fdc9ef6",
+    "inputs/0176P0.json": "f251dbb4bb5cb5c43271e23d9873cf7ece8f3d9c9aed8bf45ee9d35103b3c0a2",
+    "inputs/0177R0.json": "406e389a4fdc0e687c6f628abb4205c03795129132909e51fc41499f354fed31",
+    "inputs/0189Z0.json": "233ec87f5f36f606daf94ceacdd305c2469e3cae81c73dbd858999187bff9b20",
+    "inputs/0190G0.json": "4b0f5eee1073eef10134b205f7c3ae7989c936611cb69d4ba9ae83721dedf7f5",
+    "inputs/0198A0.json": "26ccd292414b865ab0c092be03bc07e1f399496a54a3d64501ee083213097c29",
+    "inputs/0199C0.json": "81d4b3f620f1fe678ee45963aabe6e4b3699d50e527ac8f21a7d52cd72216f01",
+    "inputs/0210E0.json": "6a6cc89323c90be8fc3b19e7bff665f2f34841564fbfb4a4b1e404122d187666",
+    "inputs/0219E0.json": "4b09f0c10af25101f7d1f583c8ba4580c6867cffed6afc8378aa9e648fab807c",
+    "inputs/0222D0.json": "21ff8612eb540389792cd34a117c84ef384adc7230c7041863b0e49fdfca48ff",
+    "inputs/0223A0.json": "88b47eb637e058c3742b0e87e232fc070d5f055b4ad2ffdd4fe23fadc6a03bfc",
+    "inputs/091170.json": "cdb981d66f29e5c9fa6097ddd6328a294479e30838d006670fa3722e16125169",
+    "inputs/104530.json": "79a4454df84d4785865d8d3ecc6603b66041e0e5d2609717312db6ad7a07e54c",
+    "inputs/161510.json": "987ac638d764b4349cc083251b7945e715e368101bed24132b7eefc755cc2fa0",
+    "inputs/166400.json": "b7ead4e1375405c6fa96c8d7fc7446d2553999f4a6a221c1451a8fedfe0bf41d",
+    "inputs/211900.json": "6a71777c2d49f45bc3bf3e31af7812e67a1f83d4da47d639f8a4e5461bb4ed4b",
+    "inputs/245340.json": "50597c4e23d1d32f0903481fead5f5ed6a7d2163b3bc1eafbd8851499a4ff6fd",
+    "inputs/279530.json": "fd9053fa69746bfc289565ecdab28259eb2a22b784172616c8902d98a82268c9",
+    "inputs/289480.json": "a423d7331c74ad5c8288c9f4402b29ce6c591841c68b653213f9afee527031c2",
+    "inputs/290080.json": "88a5eee69af9f6c14c6d59ead583e487f0c3efb5459b935cf5fc7596de51a7e1",
+    "inputs/322410.json": "b7d60dcd61224e50f3ea10e42bd15692a6e629983c977fc544d7104c5f0619e9",
+    "inputs/336160.json": "8421bc3410cbf3a05f2f26ff4259a328fad9af658fc88a62b9cc5b7703290d6e",
+    "inputs/373790.json": "552c644332a4a6e788420eac716d3419f37049176bf628ee928b70705b9f1afd",
+    "inputs/402970.json": "ee8e75df6a2db255118c1e053a9d43247357912c5403cdbac0078c835bcc79f8",
+    "inputs/429000.json": "118f7b407dfa8d327708e6fdd731b7d73491985050dc6036a5e67c856b729691",
+    "inputs/432840.json": "3156ad9e58202257909cde858b503b9559c7a84a3e96eeebe83e6eba07b100db",
+    "inputs/433330.json": "d3e1a0f912220eaf7a7fdf2b662571098f56a5a8fce04b99a1deabec2ed57936",
+    "inputs/441640.json": "b23838cfb0cbb4535086d2a6c526230830abe1f89eda1eaccf0fa46aa9e90f7e",
+    "inputs/441680.json": "45796b314fd1443f913dd503a12bc7b992c08531e8d389986d9f04ad6158972f",
+    "inputs/441800.json": "a18a5e9246f8150ffa45e5f4f5f6a6fb575a903498f270f98a90aa772b40ab50",
+    "inputs/446720.json": "c34ea1fbacfe3aacac2c86acad93c72aabc11409f44a1f553ea873b7587fe904",
+    "inputs/448100.json": "6969316fdb72f464c69f82d7703b586c6ff4e4b77efdf945b4a2b4e26383f466",
+    "inputs/452360.json": "2aa281df7ea65afa853b7459b12b37b97ea4ce5641578f9c68bc7bc9ea09e670",
+    "inputs/453330.json": "e37f6b9064e9e51652c237ef5b4d6968a2ad29affbe4c94df5e81a064c433801",
+    "inputs/455660.json": "1e23899a5f8d9f2788fb8720fe06b132a1741e0a05c984e0549ade10a89441ea",
+    "inputs/458730.json": "42cd23989faa95cd9ff80be72d3200e5420c4755f9c8b5242c94f9e68107715b",
+    "inputs/458750.json": "2adb1ef6780b85df9be00f253e6a2e1a21f76bc52a2af7607d71ce158207e20b",
+    "inputs/458760.json": "75027513d5b9b9ada4cb48d34b9e74de17239dd86e4ce28b16be58f9148a12db",
+    "inputs/460660.json": "cfc5cd400c28cc47484021520bc00921202472941879b9cee05e274d744d8bca",
+    "inputs/460960.json": "05bfde64a2cc66f5d007de75f4b8f51861795b149e6bdc3a089033ad86d8c714",
+    "inputs/465670.json": "75a118bc29551e33d9b2f37e2b1b04712b414cc7d8ed87f3e689f250207b161c",
+    "inputs/466940.json": "07ff60e0418bc8ec141d9bbcd3b7f71982015d85a2af223fb69a19c2893cd0d0",
+    "inputs/468380.json": "3864c14785df570507aedd189777cf8338f7c8f7fd7ae1544fc458f6c9431f90",
+    "inputs/472150.json": "72423ff460e03379443ca275da0541965329a7f2592a2ae5f346394191085025",
+    "inputs/474220.json": "42a69846cb97886c33127098b7b4a697ac2e98878914c10632af689680570fbd",
+    "inputs/475380.json": "ac8f8a3dc0533e27f8e010721c41b24b8cdcbec4cabe23a58f5697e05efdbe32",
+    "inputs/475720.json": "d7a28d1da496b7120aabbbafbb0ab1da267a9813d97c7cb909ff219cc326effd",
+    "inputs/476690.json": "a3adae124d43a2fbb1307b5b212646d33fae5df5dd23d66d73c3e54c50f20892",
+    "inputs/476850.json": "1342632d02aa359913d812ae624155ee17b14f4db9a45bb73a5fb002e296f529",
+    "inputs/480020.json": "de81bc5c308c57c4c939213a7a1b4ed46e5e2c63dcfe19606b7428763afe4cac",
+    "inputs/480030.json": "b59085ec20f87d7a1b87fa56fd227d9e1b7d52488325c66d872f9fc5ea162f5a",
+    "inputs/480040.json": "daa55e56e689296925135b6b3a0db7b3005a24a2837ab0fcd0e16173ae1992ca",
+    "inputs/481050.json": "4afb8dcd62efaf09687cb32d137b2adf837f846845f8bfb2cf367002aec9916f",
+    "inputs/482730.json": "6f45d8842e81a645f847088e8981bb8ad8351d2b9ae3cc2f30e73e555cb9d90d",
+    "inputs/483280.json": "bb528ae412a0a77763bad4f0fa878119b8edf5ea92b92382373d13667b62987f",
+    "inputs/483290.json": "76ad890f182cb72cc847246c13eec77c54b1004286c45218e9eb66d0a48c1af3",
+    "inputs/484880.json": "e8aae34efb682f5ee10f8fd8468f9aaddd62e62cd7b05363f67e0990ef047157",
+    "inputs/486290.json": "d9aa42894909df872c1cc3bf54d493f4fb634baca5272a32f5f41fc4eb88af6a",
+    "inputs/487950.json": "62441c69cbea09262710b2c984b02e3277b0f0f265076dd1008f51629fb127c6",
+    "inputs/489030.json": "5b941e69f505311bb9cb950b0eb1bb770bf0ae814802546212b9dc9c5038e8f0",
+    "inputs/489250.json": "e64d6bffba9591e262f65078f3e9deb9015d5530dc05a3f7aee3194eb131a8df",
+    "inputs/490590.json": "c2500d4af0dea2138c1c0ea404f80838cd829dc445341e7ec9db8d76c6d85c7e",
+    "inputs/490600.json": "a4e339bc43f930bd6ff648d98e1a3aeab8431e14e0067ad469a66cd199461fe7",
+    "inputs/491620.json": "46cd5b8954f3aec61d2eae109255f4b789c75e49a77892515c7819635e8f2a5c",
+    "inputs/493420.json": "d777d58da989c59e7aed425c8a2f7cd75467f645a9e919068206b0f3b4cae885",
+    "inputs/493810.json": "10e8b0a946f91d9de0fde257f627f9fed3b71c3603e08554c741ac9ff6b49c1f",
+    "inputs/494210.json": "e9e350dc40270721bb14c94fc51a366511246284dde0eca57fedf0ccf304f3c1",
+    "inputs/494300.json": "f92d98866a65a010255b557272ed9c946b796daea47605f128d6b2af0b7e1a0a",
+    "inputs/494420.json": "9f43304396cd52d323073fe3e3f7187015dfd1adbe0310cb2c3a1e9c14ef2615",
+    "inputs/495040.json": "f498c205e4f936f140ad97fd7bb3d8a38d33fa443affe2ec03d611a395837fb1",
+    "inputs/495050.json": "cc51bb5760ec518c6359f33469e9c597e428623cc9a6c847b8c5528f30e06ecc",
+    "inputs/495230.json": "a67274dad50f6d704ee8a8439f9814814992d0c0ec03ed226705b727d1d8505b",
+    "inputs/495330.json": "521f25e93111bb2b0692357bb88a4fc4845336eccc906f3cd99075d596e3fa75",
+    "inputs/495850.json": "9a697cbeabb075679b6d32b1053439046c2c379904276acfdbbacef2e9f621ae",
+    "inputs/496080.json": "76c27b1dd6e8d52581ee35abebb30c19a9fa4649b320bb4785f7a263a34d79e9",
+    "inputs/497780.json": "d2f81ce896491a90118bb3910e5ccd3008cf626ec01e0472b3a23150835a53ef",
+    "inputs/498400.json": "139047edb17980af56b5ada7295e08b5ddccb04cb84c5d8c714568cd14837b83",
+    "inputs/498410.json": "8ca1a37af231fb9e243415885df64ce62dec64e8bae833fb13e8323e7f68ae81",
+    "inputs/498860.json": "02b53262b04cf09de44468ba619d6771aee5db9feb47ca4e2db856937cf1b198",
+    "inputs/499150.json": "48701775a881f13776fa734f173a5e7d7393a6586542ab66f8903d9687d5adac",
+    "assets/pyodide/libopenssl-1.1.1w.zip": "eaec7126f466a33ea4121fd230211bb01e9ad1c5748f3cd0b4b1c8677b4ac90a",
+    "assets/pyodide/pyodide-lock.json": "3256ffc76388de0e37f4b34d42ab484268d1afc675179ff97b2a5bb14f84ccac",
+    "assets/pyodide/pyodide.asm.js": "1263f02b5b26099b96112378156f242dd98b39a8201ba7765e5fe3d455c5ce91",
+    "assets/pyodide/pyodide.asm.wasm": "e2f4ee75b325e35eb31bfb8c613d4dd5098f5502c156a97847686875b5025480",
+    "assets/pyodide/pyodide.js": "718d40f1c015dd25ec724cc8fc4e2325d6a45a92ae225121ff6953f224a16f72",
+    "assets/pyodide/python_stdlib.zip": "4298b6ee445cb724c3973437da47789752b9e6ff4e26619026b283ec801fc46b",
+    "assets/pyodide/sqlite3-1.0.0-cp313-cp313-pyodide_2025_0_wasm32.whl": "aab7214b987a3803fca283a8221e4b9d3274abc05d0cf506ea1a2ae7e09e3bf0",
+    "assets/pyodide/ssl-1.0.0-cp313-cp313-pyodide_2025_0_wasm32.whl": "23a3fe862983d6798a51a0a63ac55356891751084927a7bde979dc4d6d52e0b5",
+    "presentation.py": "ac88dcc35135bcf093db6b50afd8fb0ac822f0541ea33c8b0cbd2a49e4c11246",
+    "market_projection.py": "b6404a2f20790aba0a7423c4ecab2906d6e37edc6a9b590596c1e4f2b720a6df",
+    "references/229200.json": "ce39771e81e0f13b3286269b53b81d4d2a2ac27f55cb5bdcb0ae795fc849085d",
+    "references/069500.json": "be4c7151627b4dd0513dc0d984ac584bb63f853afc953c32860c60310bf4c5a8",
+    "references/379810.json": "006b56a498992c0e4f385e7cf56de5e5bd6eae001262cb65a74a77f317bdb181",
+    "references/379800.json": "1f79d911ea87447a6ef4e5d6dd4e1222dbcc6b5ed47791d5a2fd9ee86ee4ed9d",
+    "facts_projection.py": "e2db2bda18337304e82069de76e32cf17c01f8d981fa6e6ced4e42bd86cfb9ee"
+  },
+  "core_files": [
+    {
+      "path": "01_MASTER_SOURCE/candidate8/main_application_core/app_core.py",
+      "sha256": "f4c60ed1dfba7cbb5af1bd3828c08559717aee96aeb3ce7096d890a83f7f397b",
+      "bytes": 4405
+    },
+    {
+      "path": "01_MASTER_SOURCE/candidate8/main_application_core/feature_router.py",
+      "sha256": "d5fc79a74e684c92507b55529a726bf34d6316742bb16f902fc8465180e12dec",
+      "bytes": 709
+    },
+    {
+      "path": "01_MASTER_SOURCE/candidate8/health_orchestrator/orchestrator.py",
+      "sha256": "e5444c30dc9255245c5982bc3640d79febe7c35cd71d85f6cb1dbde4106467c5",
+      "bytes": 3080
+    },
+    {
+      "path": "01_MASTER_SOURCE/candidate8/health_orchestrator/registry.py",
+      "sha256": "fe46bdcbfd48aea21fed631795bf7bb67ecf70b9c8edfcc54ced93520d5e32c6",
+      "bytes": 1461
+    },
+    {
+      "path": "01_MASTER_SOURCE/candidate8/health_io_interface/interface.py",
+      "sha256": "1c1fbb765000438740e929db516e255c6c9fb5ae5c289f23c41645e09c524ebb",
+      "bytes": 5109
+    },
+    {
+      "path": "01_MASTER_SOURCE/candidate8/health_io_interface/verify_io.py",
+      "sha256": "dd125452cb993687186e399a7a0ef3269b52d8e5ab2ab604743cc897ec7f9675",
+      "bytes": 4078
+    },
+    {
+      "path": "01_MASTER_SOURCE/candidate8/health_io_interface/engine/collector.py",
+      "sha256": "92ca48bf649f6a22d61b841df19f3b66f29e66b2322b5f79d0459296dc1ba4b3",
+      "bytes": 2422
+    },
+    {
+      "path": "01_MASTER_SOURCE/candidate8/health_io_interface/engine/nav_tr.py",
+      "sha256": "c7b5245e73047e9b13dacf3b8424bafb749b361bcc2192bdf07af15866360452",
+      "bytes": 547
+    },
+    {
+      "path": "01_MASTER_SOURCE/candidate8/health_io_interface/engine/nav_join.py",
+      "sha256": "9c8c9a2a054978c7dc4e4e07071752aa7cc690db1919c39bd443e59e2e6475e0",
+      "bytes": 1149
+    },
+    {
+      "path": "01_MASTER_SOURCE/candidate8/health_io_interface/engine/run.py",
+      "sha256": "b0e644a3756264b1af30123ff105d22f50055891f4a1f6e207ad1ec4a2c7d175",
+      "bytes": 2331
+    },
+    {
+      "path": "01_MASTER_SOURCE/candidate8/health_io_interface/engine/health.py",
+      "sha256": "47bfeb08c8c7ee258b704472332cdb9ed41ab987e73e4b4b9087599473117126",
+      "bytes": 1386
+    },
+    {
+      "path": "01_MASTER_SOURCE/candidate8/health_io_interface/output_schema.json",
+      "sha256": "be78bfa9b094f8364dd3cc0de018cc4a56375aba9dc96a11bf3647e73f241862",
+      "bytes": 3082
+    },
+    {
+      "path": "01_MASTER_SOURCE/candidate8/health_orchestrator/instruments.json",
+      "sha256": "fac74287bb64f4a7e6c137e0b3a2166e6dc65901f170030be59a60eef54ad15d",
+      "bytes": 2801
+    },
+    {
+      "path": "01_MASTER_SOURCE/candidate8/desktop_ui_v3/instrument_metadata.json",
+      "sha256": "d5df526559cc968d3414f28ac9516c06d635da041a1a634c1060c96d66bf9706",
+      "bytes": 18653
+    },
+    {
+      "path": "01_MASTER_SOURCE/integration/adapter.py",
+      "sha256": "82f5a233f4d78a2eaea66638609c3dd0663acfa93a8e5dfac9cabdd514ea0a11",
+      "bytes": 13366
+    },
+    {
+      "path": "01_MASTER_SOURCE/integration/brand_policy.py",
+      "sha256": "343cf76839ed9f113572bac0b8603dd93acbb611069841f3a4488225f70a3181",
+      "bytes": 2074
+    },
+    {
+      "path": "03_REFERENCE/universe_v2_2/universe_master_v2_2.json",
+      "sha256": "f6e7c5c0e50efc79cee908cc41e6a4ce31427ecb84577e6434b0472eae0ae24f",
+      "bytes": 1095960
+    },
+    {
+      "path": "03_REFERENCE/onboarding_poc_original/adapters/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "03_REFERENCE/onboarding_poc_original/adapters/zeroin.py",
+      "sha256": "e5443f25eb66b94a6339e133cb7d5f241a87b23e5eb8526625600469a5fa9a30",
+      "bytes": 1469
+    },
+    {
+      "path": "03_REFERENCE/onboarding_poc_original/adapters/funetf.py",
+      "sha256": "7be761a261ab636437d7431eb3b2f2c24c5309df284a1cbe791d3122b8f6b9dd",
+      "bytes": 1500
+    }
+  ]
+}

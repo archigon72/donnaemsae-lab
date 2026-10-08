@@ -1,0 +1,657 @@
+{
+  "meta": {
+    "snapshot_id": "proof-20261002-leading-null-v1",
+    "engine_hash": "11a8b025cc2fe4272d935a60eb8c2d4a8076f8c56ed058f9531e73fdb0d70678",
+    "integration_hash": "1ebedee762311ad20de09c56c009ae4d1deeb6b9e4d5b49a060b139ae608179d",
+    "input_policy_version": "leading-nav-null-common-v1",
+    "schema_version": "proof-v1",
+    "data_cutoff": "2026-10-02"
+  },
+  "ticker": "0219E0",
+  "manifest": {
+    "ticker": "0219E0",
+    "isin": "KR70219E0005",
+    "source": "FunETF",
+    "field": "fp",
+    "cache_kind": "new_integration_cache",
+    "collected_at_utc": "2026-10-05T17:32:17.050545+00:00",
+    "data_cutoff": "2026-10-02",
+    "first_date": "2026-07-10",
+    "last_date": "2026-10-02",
+    "observations": 57,
+    "nav_url": "https://www.funetf.co.kr/api/public/product/view/etfnav?gijunYmd=20261002&fundCd=KR70219E0005&itemId=KR70219E0005&schNavStDt=20100101&schNavEdDt=20261002",
+    "distribution_url": "https://www.funetf.co.kr/api/public/product/view/etfdividend?gijunYmd=20261002&fundCd=KR70219E0005&itemId=KR70219E0005",
+    "nav_path": "04_DATA/runtime_cache/0219E0/nav.csv",
+    "response_note": "Existing adapter parses response JSON; response cache serializes those unmodified field values, not byte-identical HTTP body.",
+    "zeroin_error": null,
+    "sha256": {
+      "nav.csv": "ad46bb78f29ffafa8cfb73cfae565c6dceb2beefd27210d1b10f3281137e1313",
+      "nav_response.json": "08c01527ae35d8761037aaa7565e1b7077c164608948ab8ac05cab4efd2e5e91",
+      "distribution_response.json": "c0b4a35d6a45dcd5afd05d1419cd998c14f3b07b42ef4ed900ea08b098f0d29a",
+      "zeroin_metadata.json": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+    }
+  },
+  "nav_rows": [
+    {
+      "gijunYmd": "20261002",
+      "clsp": "8435.0",
+      "clspDiff": "25.0",
+      "clspDiffRt": "0.3",
+      "fp": "8470.74",
+      "fpDiff": "36.89",
+      "fpDiffRt": "0.44",
+      "taxFp": "9819.92"
+    },
+    {
+      "gijunYmd": "20261001",
+      "clsp": "8410.0",
+      "clspDiff": "140.0",
+      "clspDiffRt": "1.69",
+      "fp": "8433.85",
+      "fpDiff": "174.92",
+      "fpDiffRt": "2.12",
+      "taxFp": "9820.31"
+    },
+    {
+      "gijunYmd": "20260930",
+      "clsp": "8270.0",
+      "clspDiff": "-25.0",
+      "clspDiffRt": "-0.3",
+      "fp": "8258.93",
+      "fpDiff": "-37.16",
+      "fpDiffRt": "-0.45",
+      "taxFp": "9820.33"
+    },
+    {
+      "gijunYmd": "20260929",
+      "clsp": "8295.0",
+      "clspDiff": "-180.0",
+      "clspDiffRt": "-2.12",
+      "fp": "8296.09",
+      "fpDiff": "47.23",
+      "fpDiffRt": "0.57",
+      "taxFp": "9813.82"
+    },
+    {
+      "gijunYmd": "20260928",
+      "clsp": "8475.0",
+      "clspDiff": "-250.0",
+      "clspDiffRt": "-2.87",
+      "fp": "8248.86",
+      "fpDiff": "-455.94",
+      "fpDiffRt": "-5.24",
+      "taxFp": "9773.86"
+    },
+    {
+      "gijunYmd": "20260923",
+      "clsp": "8725.0",
+      "clspDiff": "110.0",
+      "clspDiffRt": "1.28",
+      "fp": "8704.8",
+      "fpDiff": "106.92",
+      "fpDiffRt": "1.24",
+      "taxFp": "9774.1"
+    },
+    {
+      "gijunYmd": "20260922",
+      "clsp": "8615.0",
+      "clspDiff": "30.0",
+      "clspDiffRt": "0.35",
+      "fp": "8597.88",
+      "fpDiff": "10.04",
+      "fpDiffRt": "0.12",
+      "taxFp": "9774.64"
+    },
+    {
+      "gijunYmd": "20260921",
+      "clsp": "8585.0",
+      "clspDiff": "155.0",
+      "clspDiffRt": "1.84",
+      "fp": "8587.84",
+      "fpDiff": "145.04",
+      "fpDiffRt": "1.72",
+      "taxFp": "9774.71"
+    },
+    {
+      "gijunYmd": "20260918",
+      "clsp": "8430.0",
+      "clspDiff": "230.0",
+      "clspDiffRt": "2.8",
+      "fp": "8442.8",
+      "fpDiff": "218.71",
+      "fpDiffRt": "2.66",
+      "taxFp": "9774.81"
+    },
+    {
+      "gijunYmd": "20260917",
+      "clsp": "8200.0",
+      "clspDiff": "-25.0",
+      "clspDiffRt": "-0.3",
+      "fp": "8224.09",
+      "fpDiff": "-4.64",
+      "fpDiffRt": "-0.06",
+      "taxFp": "9775.13"
+    },
+    {
+      "gijunYmd": "20260916",
+      "clsp": "8225.0",
+      "clspDiff": "160.0",
+      "clspDiffRt": "1.98",
+      "fp": "8228.73",
+      "fpDiff": "151.6",
+      "fpDiffRt": "1.88",
+      "taxFp": "9775.22"
+    },
+    {
+      "gijunYmd": "20260915",
+      "clsp": "8065.0",
+      "clspDiff": "-80.0",
+      "clspDiffRt": "-0.98",
+      "fp": "8077.13",
+      "fpDiff": "-62.21",
+      "fpDiffRt": "-0.76",
+      "taxFp": "9775.31"
+    },
+    {
+      "gijunYmd": "20260914",
+      "clsp": "8145.0",
+      "clspDiff": "-310.0",
+      "clspDiffRt": "-3.67",
+      "fp": "8139.34",
+      "fpDiff": "-314.29",
+      "fpDiffRt": "-3.72",
+      "taxFp": "9775.37"
+    },
+    {
+      "gijunYmd": "20260911",
+      "clsp": "8455.0",
+      "clspDiff": "-175.0",
+      "clspDiffRt": "-2.03",
+      "fp": "8453.63",
+      "fpDiff": "-166.09",
+      "fpDiffRt": "-1.93",
+      "taxFp": "9775.47"
+    },
+    {
+      "gijunYmd": "20260910",
+      "clsp": "8630.0",
+      "clspDiff": "10.0",
+      "clspDiffRt": "0.12",
+      "fp": "8619.72",
+      "fpDiff": "-5.02",
+      "fpDiffRt": "-0.06",
+      "taxFp": "9775.78"
+    },
+    {
+      "gijunYmd": "20260909",
+      "clsp": "8620.0",
+      "clspDiff": "115.0",
+      "clspDiffRt": "1.35",
+      "fp": "8624.74",
+      "fpDiff": "117.28",
+      "fpDiffRt": "1.38",
+      "taxFp": "9775.73"
+    },
+    {
+      "gijunYmd": "20260908",
+      "clsp": "8505.0",
+      "clspDiff": "0.0",
+      "clspDiffRt": "0.0",
+      "fp": "8507.46",
+      "fpDiff": "-32.14",
+      "fpDiffRt": "-0.38",
+      "taxFp": "9775.84"
+    },
+    {
+      "gijunYmd": "20260907",
+      "clsp": "8505.0",
+      "clspDiff": "305.0",
+      "clspDiffRt": "3.72",
+      "fp": "8539.6",
+      "fpDiff": "359.61",
+      "fpDiffRt": "4.4",
+      "taxFp": "9775.95"
+    },
+    {
+      "gijunYmd": "20260904",
+      "clsp": "8200.0",
+      "clspDiff": "150.0",
+      "clspDiffRt": "1.86",
+      "fp": "8179.99",
+      "fpDiff": "147.35",
+      "fpDiffRt": "1.83",
+      "taxFp": "9776.11"
+    },
+    {
+      "gijunYmd": "20260903",
+      "clsp": "8050.0",
+      "clspDiff": "5.0",
+      "clspDiffRt": "0.06",
+      "fp": "8032.64",
+      "fpDiff": "3.41",
+      "fpDiffRt": "0.04",
+      "taxFp": "9776.43"
+    },
+    {
+      "gijunYmd": "20260902",
+      "clsp": "8045.0",
+      "clspDiff": "-310.0",
+      "clspDiffRt": "-3.71",
+      "fp": "8029.23",
+      "fpDiff": "-332.85",
+      "fpDiffRt": "-3.98",
+      "taxFp": "9776.53"
+    },
+    {
+      "gijunYmd": "20260901",
+      "clsp": "8355.0",
+      "clspDiff": "55.0",
+      "clspDiffRt": "0.66",
+      "fp": "8362.08",
+      "fpDiff": "29.12",
+      "fpDiffRt": "0.35",
+      "taxFp": "9776.64"
+    },
+    {
+      "gijunYmd": "20260831",
+      "clsp": "8300.0",
+      "clspDiff": "10.0",
+      "clspDiffRt": "0.12",
+      "fp": "8332.96",
+      "fpDiff": "58.65",
+      "fpDiffRt": "0.71",
+      "taxFp": "9776.75"
+    },
+    {
+      "gijunYmd": "20260828",
+      "clsp": "8290.0",
+      "clspDiff": "-350.0",
+      "clspDiffRt": "-4.05",
+      "fp": "8274.31",
+      "fpDiff": "-172.04",
+      "fpDiffRt": "-2.04",
+      "taxFp": "9776.62"
+    },
+    {
+      "gijunYmd": "20260827",
+      "clsp": "8640.0",
+      "clspDiff": "150.0",
+      "clspDiffRt": "1.77",
+      "fp": "8446.35",
+      "fpDiff": "-27.9",
+      "fpDiffRt": "-0.33",
+      "taxFp": "9775.54"
+    },
+    {
+      "gijunYmd": "20260826",
+      "clsp": "8490.0",
+      "clspDiff": "40.0",
+      "clspDiffRt": "0.47",
+      "fp": "8474.25",
+      "fpDiff": "78.34",
+      "fpDiffRt": "0.93",
+      "taxFp": "9775.8"
+    },
+    {
+      "gijunYmd": "20260825",
+      "clsp": "8450.0",
+      "clspDiff": "60.0",
+      "clspDiffRt": "0.72",
+      "fp": "8395.91",
+      "fpDiff": "52.76",
+      "fpDiffRt": "0.63",
+      "taxFp": "9775.88"
+    },
+    {
+      "gijunYmd": "20260824",
+      "clsp": "8390.0",
+      "clspDiff": "-320.0",
+      "clspDiffRt": "-3.67",
+      "fp": "8343.15",
+      "fpDiff": "-331.98",
+      "fpDiffRt": "-3.83",
+      "taxFp": "9775.97"
+    },
+    {
+      "gijunYmd": "20260821",
+      "clsp": "8710.0",
+      "clspDiff": "140.0",
+      "clspDiffRt": "1.63",
+      "fp": "8675.13",
+      "fpDiff": "124.25",
+      "fpDiffRt": "1.45",
+      "taxFp": "9775.86"
+    },
+    {
+      "gijunYmd": "20260820",
+      "clsp": "8570.0",
+      "clspDiff": "575.0",
+      "clspDiffRt": "7.19",
+      "fp": "8550.88",
+      "fpDiff": "562.2",
+      "fpDiffRt": "7.04",
+      "taxFp": "9775.89"
+    },
+    {
+      "gijunYmd": "20260819",
+      "clsp": "7995.0",
+      "clspDiff": "-540.0",
+      "clspDiffRt": "-6.33",
+      "fp": "7988.68",
+      "fpDiff": "-549.8",
+      "fpDiffRt": "-6.44",
+      "taxFp": "9775.65"
+    },
+    {
+      "gijunYmd": "20260818",
+      "clsp": "8535.0",
+      "clspDiff": "-115.0",
+      "clspDiffRt": "-1.33",
+      "fp": "8538.48",
+      "fpDiff": "-100.45",
+      "fpDiffRt": "-1.16",
+      "taxFp": "9775.65"
+    },
+    {
+      "gijunYmd": "20260814",
+      "clsp": "8650.0",
+      "clspDiff": "230.0",
+      "clspDiffRt": "2.73",
+      "fp": "8638.93",
+      "fpDiff": "206.2",
+      "fpDiffRt": "2.45",
+      "taxFp": "9775.74"
+    },
+    {
+      "gijunYmd": "20260813",
+      "clsp": "8420.0",
+      "clspDiff": "300.0",
+      "clspDiffRt": "3.69",
+      "fp": "8432.73",
+      "fpDiff": "305.28",
+      "fpDiffRt": "3.76",
+      "taxFp": "9776.12"
+    },
+    {
+      "gijunYmd": "20260812",
+      "clsp": "8120.0",
+      "clspDiff": "305.0",
+      "clspDiffRt": "3.9",
+      "fp": "8127.45",
+      "fpDiff": "329.88",
+      "fpDiffRt": "4.23",
+      "taxFp": "9776.07"
+    },
+    {
+      "gijunYmd": "20260811",
+      "clsp": "7815.0",
+      "clspDiff": "95.0",
+      "clspDiffRt": "1.23",
+      "fp": "7797.57",
+      "fpDiff": "75.75",
+      "fpDiffRt": "0.98",
+      "taxFp": "9775.21"
+    },
+    {
+      "gijunYmd": "20260810",
+      "clsp": "7720.0",
+      "clspDiff": "10.0",
+      "clspDiffRt": "0.13",
+      "fp": "7721.82",
+      "fpDiff": "32.73",
+      "fpDiffRt": "0.43",
+      "taxFp": "9775.18"
+    },
+    {
+      "gijunYmd": "20260807",
+      "clsp": "7710.0",
+      "clspDiff": "-35.0",
+      "clspDiffRt": "-0.45",
+      "fp": "7689.09",
+      "fpDiff": "-65.49",
+      "fpDiffRt": "-0.84",
+      "taxFp": "9775.12"
+    },
+    {
+      "gijunYmd": "20260806",
+      "clsp": "7745.0",
+      "clspDiff": "-495.0",
+      "clspDiffRt": "-6.01",
+      "fp": "7754.58",
+      "fpDiff": "-432.43",
+      "fpDiffRt": "-5.28",
+      "taxFp": "9774.56"
+    },
+    {
+      "gijunYmd": "20260805",
+      "clsp": "8240.0",
+      "clspDiff": "340.0",
+      "clspDiffRt": "4.3",
+      "fp": "8187.01",
+      "fpDiff": "291.29",
+      "fpDiffRt": "3.69",
+      "taxFp": "9773.88"
+    },
+    {
+      "gijunYmd": "20260804",
+      "clsp": "7900.0",
+      "clspDiff": "110.0",
+      "clspDiffRt": "1.41",
+      "fp": "7895.72",
+      "fpDiff": "108.94",
+      "fpDiffRt": "1.4",
+      "taxFp": "9773.99"
+    },
+    {
+      "gijunYmd": "20260803",
+      "clsp": "7790.0",
+      "clspDiff": "-605.0",
+      "clspDiffRt": "-7.21",
+      "fp": "7786.78",
+      "fpDiff": "-485.54",
+      "fpDiffRt": "-5.87",
+      "taxFp": "9774.1"
+    },
+    {
+      "gijunYmd": "20260731",
+      "clsp": "8395.0",
+      "clspDiff": "1490.0",
+      "clspDiffRt": "21.58",
+      "fp": "8272.32",
+      "fpDiff": "1387.68",
+      "fpDiffRt": "20.16",
+      "taxFp": "9774.18"
+    },
+    {
+      "gijunYmd": "20260730",
+      "clsp": "6905.0",
+      "clspDiff": "-310.0",
+      "clspDiffRt": "-4.3",
+      "fp": "6884.64",
+      "fpDiff": "-141.99",
+      "fpDiffRt": "-2.02",
+      "taxFp": "9774.41"
+    },
+    {
+      "gijunYmd": "20260729",
+      "clsp": "7215.0",
+      "clspDiff": "-465.0",
+      "clspDiffRt": "-6.05",
+      "fp": "7026.63",
+      "fpDiff": "-652.29",
+      "fpDiffRt": "-8.49",
+      "taxFp": "9774.29"
+    },
+    {
+      "gijunYmd": "20260728",
+      "clsp": "7680.0",
+      "clspDiff": "-1020.0",
+      "clspDiffRt": "-11.72",
+      "fp": "7678.92",
+      "fpDiff": "-1005.49",
+      "fpDiffRt": "-11.58",
+      "taxFp": "9773.75"
+    },
+    {
+      "gijunYmd": "20260727",
+      "clsp": "8700.0",
+      "clspDiff": "70.0",
+      "clspDiffRt": "0.81",
+      "fp": "8684.41",
+      "fpDiff": "106.63",
+      "fpDiffRt": "1.24",
+      "taxFp": "9773.63"
+    },
+    {
+      "gijunYmd": "20260724",
+      "clsp": "8630.0",
+      "clspDiff": "-530.0",
+      "clspDiffRt": "-5.79",
+      "fp": "8577.78",
+      "fpDiff": "-568.0",
+      "fpDiffRt": "-6.21",
+      "taxFp": "9773.78"
+    },
+    {
+      "gijunYmd": "20260723",
+      "clsp": "9160.0",
+      "clspDiff": "350.0",
+      "clspDiffRt": "3.97",
+      "fp": "9145.78",
+      "fpDiff": "342.69",
+      "fpDiffRt": "3.89",
+      "taxFp": "9774.17"
+    },
+    {
+      "gijunYmd": "20260722",
+      "clsp": "8810.0",
+      "clspDiff": "-10.0",
+      "clspDiffRt": "-0.11",
+      "fp": "8803.09",
+      "fpDiff": "41.52",
+      "fpDiffRt": "0.47",
+      "taxFp": "9774.31"
+    },
+    {
+      "gijunYmd": "20260721",
+      "clsp": "8820.0",
+      "clspDiff": "320.0",
+      "clspDiffRt": "3.76",
+      "fp": "8761.57",
+      "fpDiff": "314.7",
+      "fpDiffRt": "3.73",
+      "taxFp": "9774.43"
+    },
+    {
+      "gijunYmd": "20260720",
+      "clsp": "8500.0",
+      "clspDiff": "-390.0",
+      "clspDiffRt": "-4.39",
+      "fp": "8446.87",
+      "fpDiff": "-344.77",
+      "fpDiffRt": "-3.92",
+      "taxFp": "9774.53"
+    },
+    {
+      "gijunYmd": "20260716",
+      "clsp": "8890.0",
+      "clspDiff": "-650.0",
+      "clspDiffRt": "-6.81",
+      "fp": "8791.64",
+      "fpDiff": "-652.76",
+      "fpDiffRt": "-6.91",
+      "taxFp": "9774.6"
+    },
+    {
+      "gijunYmd": "20260715",
+      "clsp": "9540.0",
+      "clspDiff": "630.0",
+      "clspDiffRt": "7.07",
+      "fp": "9444.4",
+      "fpDiff": "575.03",
+      "fpDiffRt": "6.48",
+      "taxFp": "9775.13"
+    },
+    {
+      "gijunYmd": "20260714",
+      "clsp": "8910.0",
+      "clspDiff": null,
+      "clspDiffRt": null,
+      "fp": "8869.37",
+      "fpDiff": "127.37",
+      "fpDiffRt": "1.46",
+      "taxFp": "9775.26"
+    },
+    {
+      "gijunYmd": "20260713",
+      "clsp": null,
+      "clspDiff": null,
+      "clspDiffRt": null,
+      "fp": "8742.0",
+      "fpDiff": "-1033.83",
+      "fpDiffRt": "-10.58",
+      "taxFp": "9775.65"
+    },
+    {
+      "gijunYmd": "20260710",
+      "clsp": null,
+      "clspDiff": null,
+      "clspDiffRt": null,
+      "fp": "9775.83",
+      "fpDiff": "-0.44",
+      "fpDiffRt": "0.0",
+      "taxFp": "9775.81"
+    }
+  ],
+  "distribution_rows": [
+    {
+      "mketDvsn": "01",
+      "fundFnm": "KODEX 200커버드콜액티브",
+      "sotCd": "0219E0",
+      "gijunYmd": "20260929",
+      "divRt": "2.1084",
+      "divAmt": "175.0",
+      "procDt": "20260929",
+      "splitMerge1y": null,
+      "basicDt": "20260930",
+      "payDt": "20261002",
+      "dividAmt": "175.0",
+      "taxDividAmt": "0.0",
+      "yearDivAmt": 495,
+      "total": 3
+    },
+    {
+      "mketDvsn": "01",
+      "fundFnm": "KODEX 200커버드콜액티브",
+      "sotCd": "0219E0",
+      "gijunYmd": "20260828",
+      "divRt": "1.9705",
+      "divAmt": "167.0",
+      "procDt": "20260828",
+      "splitMerge1y": null,
+      "basicDt": "20260831",
+      "payDt": "20260902",
+      "dividAmt": "167.0",
+      "taxDividAmt": "0.0",
+      "yearDivAmt": 495,
+      "total": 3
+    },
+    {
+      "mketDvsn": "01",
+      "fundFnm": "KODEX 200커버드콜액티브",
+      "sotCd": "0219E0",
+      "gijunYmd": "20260730",
+      "divRt": "2.1656",
+      "divAmt": "153.0",
+      "procDt": "20260730",
+      "splitMerge1y": null,
+      "basicDt": "20260731",
+      "payDt": "20260804",
+      "dividAmt": "153.0",
+      "taxDividAmt": "0.0",
+      "yearDivAmt": 495,
+      "total": 3
+    }
+  ],
+  "zeroin_metadata": {}
+}

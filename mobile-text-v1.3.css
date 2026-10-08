@@ -1,0 +1,35 @@
+/* v1.3: mobile detail sections 2 and 5 only. */
+.mobile #perf .metrics.four,
+.mobile #market .metrics.four {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px;
+}
+.mobile #perf > summary h2,
+.mobile #market > summary h2 {
+  min-width: 0;
+  word-break: keep-all;
+  overflow-wrap: normal;
+  line-height: 1.4;
+}
+.mobile #perf .metric > span,
+.mobile #market .metric > span {
+  word-break: keep-all;
+  overflow-wrap: normal;
+  line-height: 1.4;
+  min-height: 2.8em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mobile #perf .metric strong,
+.mobile #market .metric strong {
+  white-space: nowrap;
+  word-break: normal;
+  overflow-wrap: normal;
+}
+.mobile #perf .metric small,
+.mobile #market .metric small {
+  word-break: keep-all;
+  overflow-wrap: normal;
+  line-height: 1.4;
+}
