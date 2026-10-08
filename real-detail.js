@@ -1,6 +1,6 @@
 'use strict';
 // Presentation only: consumes one Python ViewModel for PC and mobile.
-let detailVM=null,detailCatalog=[],requestSeq=0,chosenPeriod='전체',requestedPeriod='자동';
+let detailVM=null,detailCatalog=[],requestSeq=0,chosenPeriod='전체',requestedPeriod='자동',detailSearchTerm='';
 const escapeHTML=v=>String(v??'—').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const format=(v,unit='',digits=2)=>v===null||v===undefined?'—':Number(v).toLocaleString('ko-KR',{minimumFractionDigits:digits,maximumFractionDigits:digits})+unit;
 const realMetric=(label,value,sub='',cls='')=>`<div class="metric"><span>${escapeHTML(label)}</span><strong class="${cls}">${escapeHTML(value)}</strong>${sub?`<small>${escapeHTML(sub)}</small>`:''}</div>`;
@@ -20,7 +20,7 @@ function renderRealDetail(v){
  const m=v?.metadata||{},p=v?.performance||{},d=v?.distribution||{},h=v?.health||{},ap=v?.available_period,actual=v?.actual_period;
  const issueText=(v?.issues||[]).map(x=>x.message+(x.detail?' · '+(typeof x.detail==='string'?x.detail:'Core 오류 기록 참조'):'')).join(' / ');
  const badge=`<span class="sample">REAL · ${v?escapeHTML(v.status):'자료 연결 중'}</span>`;
- const choose=`<label>종목코드 / 종목명 검색 <input id="real-etf-search" type="search" placeholder="종목코드 또는 종목명 일부 입력" style="width:100%;max-width:100%" aria-label="ETF 부분검색"></label><label>ETF 선택 <select style="width:100%;max-width:100%" id="real-etf-select" aria-label="실제 ETF 선택">${detailCatalog.length?detailCatalog.map(r=>`<option value="${escapeHTML(r.ticker)}" ${r.ticker===(v?.ticker||new URLSearchParams(location.search).get('code')||'498400')?'selected':''}>${escapeHTML(r.ticker+' · '+r.name)}</option>`).join(''):'<option>자료 연결 중</option>'}</select></label>`;
+ const choose=`<label>종목코드 / 종목명 검색 <input id="real-etf-search" type="search" value="${escapeHTML(detailSearchTerm)}" placeholder="종목코드 또는 종목명 일부 입력" style="width:100%;max-width:100%" aria-label="ETF 부분검색"></label><label>ETF 선택 <select style="width:100%;max-width:100%" id="real-etf-select" aria-label="실제 ETF 선택">${detailCatalog.length?detailCatalog.map(r=>`<option value="${escapeHTML(r.ticker)}" ${r.ticker===(v?.ticker||new URLSearchParams(location.search).get('code')||'498400')?'selected':''}>${escapeHTML(r.ticker+' · '+r.name)}</option>`).join(''):'<option>자료 연결 중</option>'}</select></label>`;
  const effect=Phase1.presentation(v).reinvestment_effect_pp;
  const effectText=effect===null||effect===undefined?'—':(Number(effect)>0?'+':'')+format(effect,'%p');
  const fee=m.fee?String(m.fee)+(String(m.fee).includes('%')?'':'%'):null;
@@ -48,23 +48,50 @@ async function loadRealDetail(code,period='자동',start,end){
   if(seq!==requestSeq)return;chosenPeriod=v.period||chosenPeriod;paintRealDetail(v);
  }catch(e){if(seq!==requestSeq)return;paintRealDetail(requestError(code,String(e.message||e)));}
 }
+function searchRows(term){
+ const needle=term.trim().toLowerCase();
+ return detailCatalog.filter(r=>r.ticker.toLowerCase().includes(needle)||r.name.toLowerCase().includes(needle));
+}
 function filterSelector(term){
- const current=detailVM?.ticker||'498400',select=document.getElementById('real-etf-select');
- const needle=term.trim().toLowerCase();const rows=detailCatalog.filter(r=>r.ticker.toLowerCase().includes(needle)||r.name.toLowerCase().includes(needle));
- select.innerHTML=rows.length?rows.map(r=>`<option value="${escapeHTML(r.ticker)}" ${r.ticker===current?'selected':''}>${escapeHTML(r.ticker+' · '+r.name)}</option>`).join(''):'<option value="">검색 결과 없음</option>';
+ detailSearchTerm=term;
+ const current=detailVM?.ticker||'498400',select=document.getElementById('real-etf-select'),rows=searchRows(term);
+ const currentInResults=rows.some(r=>r.ticker===current);
+ // Filtering is not selection: never show a different ticker as already selected.
+ select.innerHTML=(currentInResults?'':'<option value="" selected>'+ (rows.length?'검색 결과를 선택하세요':'검색 결과 없음')+'</option>')+rows.map(r=>`<option value="${escapeHTML(r.ticker)}" ${r.ticker===current?'selected':''}>${escapeHTML(r.ticker+' · '+r.name)}</option>`).join('');
+}
+function selectTicker(code,{period=requestedPeriod,historyMode='push'}={}){
+ if(!detailCatalog.some(r=>r.ticker===code))return;
+ const start=document.getElementById('real-start')?.value,end=document.getElementById('real-end')?.value;
+ detailSearchTerm=code;
+ if(historyMode!=='none'){
+  const url=new URL(location.href);url.searchParams.set('code',code);url.searchParams.delete('q');
+  if(historyMode==='replace')history.replaceState(null,'',url);
+  else if(url.href!==location.href)history.pushState(null,'',url);
+ }
+ return loadRealDetail(code,period,period==='직접지정'?start:undefined,period==='직접지정'?end:undefined);
 }
 document.addEventListener('DOMContentLoaded',async()=>{
  if(document.body.dataset.view!=='detail')return;
  try{detailCatalog=(await Phase1.catalog()).items;}catch(e){paintRealDetail(requestError('—','종목 목록을 읽지 못했습니다. 새로고침해 주세요.'));return;}
  const q=new URLSearchParams(location.search),term=(q.get('q')||'').toLowerCase();
  const selected=q.get('code')||detailCatalog.find(r=>term&&(r.ticker.toLowerCase().includes(term)||r.name.toLowerCase().includes(term)))?.ticker||'498400';
- loadRealDetail(selected,q.get('period')||'자동');
+ requestedPeriod=q.get('period')||'자동';
+ selectTicker(selected,{period:requestedPeriod,historyMode:'replace'});
  document.addEventListener('input',e=>{if(e.target.id==='real-etf-search')filterSelector(e.target.value);});
+ document.addEventListener('keydown',e=>{
+  if(e.target.id!=='real-etf-search'||e.key!=='Enter'||e.isComposing)return;
+  e.preventDefault();const rows=searchRows(e.target.value);
+  const exact=rows.find(r=>r.ticker.toLowerCase()===e.target.value.trim().toLowerCase()||r.name.toLowerCase()===e.target.value.trim().toLowerCase());
+  const code=exact?.ticker||document.getElementById('real-etf-select')?.value||(rows.length===1?rows[0].ticker:null);
+  if(code)selectTicker(code);else toast(rows.length?'검색 결과에서 종목을 선택하세요.':'검색 결과가 없습니다.');
+ });
+ window.addEventListener('popstate',()=>{
+  const code=new URLSearchParams(location.search).get('code')||'498400';
+  selectTicker(code,{historyMode:'none'});
+ });
  document.addEventListener('change',e=>{
   if(e.target.id!=='real-etf-select'||!e.target.value)return;
-  const start=document.getElementById('real-start')?.value,end=document.getElementById('real-end')?.value;
-  const code=e.target.value;history.replaceState(null,'','?code='+encodeURIComponent(code));
-  loadRealDetail(code,requestedPeriod,requestedPeriod==='직접지정'?start:undefined,requestedPeriod==='직접지정'?end:undefined);
+  selectTicker(e.target.value);
  });
  document.addEventListener('click',e=>{
   const b=e.target.closest('button');if(!b)return;
