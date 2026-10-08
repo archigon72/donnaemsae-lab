@@ -74,7 +74,7 @@ function selectTicker(code,{period=requestedPeriod,historyMode='push'}={}){
 }
 document.addEventListener('DOMContentLoaded',async()=>{
  if(document.body.dataset.view!=='detail')return;
- try{const [catalog,strategies]=await Promise.all([Phase1.catalog(),fetch(new URL('./display-strategies.json',location.href)).then(r=>{if(!r.ok)throw Error('전략 자료를 읽지 못했습니다.');return r.json();})]);detailCatalog=catalog.items;detailStrategies=strategies.items;}catch(e){paintRealDetail(requestError('—','종목 목록을 읽지 못했습니다. 새로고침해 주세요.'));return;}
+ try{const [catalog,strategies]=await Promise.all([Phase1.catalog(),fetch(new URL('./display-strategies.json',location.href)).then(r=>{if(!r.ok)throw Error('전략 자료를 읽지 못했습니다.');return r.json();}).then(value=>{if(!value?.items||typeof value.items!=='object'||Array.isArray(value.items))throw Error('전략 자료 형식 오류');return value;}).catch(()=>({items:{}}))]);detailCatalog=catalog.items;detailStrategies=strategies.items;}catch(e){paintRealDetail(requestError('—','종목 목록을 읽지 못했습니다. 새로고침해 주세요.'));return;}
  const q=new URLSearchParams(location.search),term=(q.get('q')||'').toLowerCase();
  const selected=q.get('code')||detailCatalog.find(r=>term&&(r.ticker.toLowerCase().includes(term)||r.name.toLowerCase().includes(term)))?.ticker||'498400';
  requestedPeriod=q.get('period')||'자동';
