@@ -1,0 +1,29 @@
+/* Scoped search and comparison additions; existing service styling remains unchanged. */
+#entry-results{max-height:min(380px,45dvh);overflow:auto;overscroll-behavior:contain;scroll-margin-top:70px}
+.entry-result{grid-template-columns:minmax(0,1fr) 90px}.entry-result-go{padding-left:10px}
+.search-active .entry-hero{display:none}
+body.keyboard-open .service-bottom{visibility:hidden}
+.compare-results{max-height:min(320px,40dvh);overscroll-behavior:contain}
+.compare-periods,.compare-basis{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0}
+.compare-periods button,.compare-basis button{min-height:44px;border:1px solid #368a79;border-radius:10px;padding:9px 13px;background:#0a2632;color:#eaf3f1;font:inherit;cursor:pointer}
+.compare-periods button[aria-pressed=true],.compare-basis button[aria-pressed=true]{background:#1c6655;border-color:#83f1cb}
+.compare-dates{display:flex;flex-wrap:wrap;gap:12px}.compare-dates label{flex:1;min-width:140px;font-size:14px}
+.compare-dates input{width:100%;min-height:44px;padding:8px;background:#09212b;color:#eaf3f1;border:1px solid #3a8e81;border-radius:8px;font:inherit}
+#comparison-output{scroll-margin-top:60px}.comparison-chart{display:block;width:100%;height:auto;min-height:210px}
+.comparison-legend{list-style:none;padding:0;display:grid;gap:9px;font-size:13px}.comparison-legend li{display:flex;align-items:flex-start;gap:9px}.comparison-legend i{flex:0 0 16px;height:4px;margin-top:8px}
+.comparison-table-wrap{overflow:auto}.comparison-table{width:100%;border-collapse:collapse;min-width:320px;font-size:13px}.comparison-table th,.comparison-table td{padding:12px 8px;border-bottom:1px solid #28545c;text-align:right;vertical-align:top}.comparison-table th:first-child,.comparison-table td:first-child{text-align:left;min-width:130px;overflow-wrap:anywhere}.comparison-table small{display:block;color:#a3c7c9}
+#comparison-range,#comparison-error{font-size:14px;line-height:1.8;overflow-wrap:anywhere}#comparison-error{color:#ffbaae}.comparison-available{font-size:12px;line-height:1.7;color:#a3c7c9}
+@media(max-width:440px){.compare-panel{padding:17px 13px}.comparison-chart text{font-size:14px}}
+
+/* Compact ETF lists only: full names stay in the DOM/accessibility tree. */
+#entry-results .entry-result,
+#compare-results .compare-result{grid-template-columns:minmax(0,1fr) 64px;gap:8px;min-height:56px;padding:5px 10px;align-items:center}
+#entry-results .entry-result b,
+#compare-results .compare-result b{display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;overflow:hidden;font-size:14px;font-weight:600;line-height:18px;overflow-wrap:anywhere}
+#entry-results .entry-result small,
+#compare-results .compare-result small{font-size:11px;line-height:14px;margin-top:2px;color:#a3c7c9}
+#entry-results .entry-result-go,
+#compare-results .compare-result em{display:flex;align-items:center;justify-content:center;min-width:44px;min-height:44px;width:64px;padding:0;font-size:12px;line-height:18px;white-space:nowrap;text-align:center}
+#compare-selected li{display:grid;grid-template-columns:minmax(0,1fr) 52px;gap:8px;min-height:56px;padding:5px 0;align-items:center}
+#compare-selected li>span{display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;overflow:hidden;min-width:0;font-size:14px;font-weight:600;line-height:18px;overflow-wrap:anywhere}
+#compare-selected li>button{width:52px;min-width:44px;min-height:44px;padding:0 6px;font-size:12px;line-height:18px}

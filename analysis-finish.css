@@ -1,0 +1,133 @@
+/* analysis-finish.css — 분석 서비스 전용 시각 마감 (표현만).
+   범위: analysis.html · analysis-search.html · compare.html · detail/mobile-detail(상단 바 접점) · terms(상단 바 접점).
+   잠금: search-comparison.css 최하단의 컴팩트 검색 규칙(이름 14/600/18, 코드 11/14, 행 56px, 64px 우측열,
+   선택 행 56px, 제거 52×44, 입력 16px, 목록 max-height)은 여기서 재정의하지 않는다. 색·테두리·배경만 다룬다. */
+:root{--af-card:rgba(9,27,38,.95);--af-card2:rgba(12,35,47,.96);--af-line:rgba(122,240,196,.2);--af-line2:rgba(122,240,196,.45);--af-mint:#7af0c4;--af-text:#eaf3f1;--af-sub:#bcd3cf;--af-mute:#98b8b8;--af-r:18px;--af-rc:12px;--af-shadow:0 10px 28px rgba(0,0,0,.3)}
+/* 공통 상단 '연구소 대문' 바: 위치·크기·링크 그대로, 색만 분석 톤으로 */
+body[data-portal-service="analysis"] .portal-return-bar,body[data-portal-service="terms"] .portal-return-bar{background:rgba(6,16,25,.95);border-bottom:1px solid rgba(122,240,196,.12)}
+body[data-portal-service="analysis"] .portal-return-link,body[data-portal-service="terms"] .portal-return-link{min-height:32px;padding:0 4px;color:#dff3ec;font-weight:600}
+
+/* ---------- 허브 · 검색 · 비교 공통 (main.analysis-entry) ---------- */
+.analysis-entry .analysis-back{margin:0 0 4px;color:var(--af-mint);font-weight:600;font-size:14px}
+.analysis-entry .entry-heading{margin:0 0 4px}
+.analysis-entry .entry-heading span{display:inline-flex;align-items:center;gap:6px;font-size:12.5px;font-weight:700;color:var(--af-mint);letter-spacing:.02em}
+.analysis-entry .entry-heading span::before{content:"";width:20px;height:20px;background:url(assets/forest/sprout-mark.webp) center/contain no-repeat}
+.analysis-entry .entry-heading h1{font-size:23px;line-height:1.35;margin:4px 0 12px;letter-spacing:-.4px}
+.analysis-entry .entry-hero{min-height:196px;padding:14px 0 18px}
+.analysis-entry .entry-hero img{width:150px;height:150px;top:-6px;opacity:1;filter:drop-shadow(0 0 18px rgba(122,240,196,.22))}
+.analysis-entry .entry-hero h2{margin:6px 0 14px}
+.analysis-entry .entry-hero p{font-size:15.5px;line-height:1.65;margin:0;color:#d6e7e2}
+
+/* 허브: 두 갈래 카드 */
+.analysis-branches{gap:14px}
+.analysis-branches .branch-card{position:relative;background:var(--af-card);border:1px solid var(--af-line);border-radius:var(--af-r);padding:20px;box-shadow:var(--af-shadow);transition:border-color .15s,background .15s}
+.analysis-branches .branch-card::after{content:"";position:absolute;right:18px;top:18px;width:46px;height:46px;border-radius:14px;border:1px solid rgba(122,240,196,.32);background:rgba(122,240,196,.09) var(--af-ic) center/26px no-repeat}
+.analysis-branches .branch-card:nth-child(1){--af-ic:url("data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22%237af0c4%22 stroke-width=%221.9%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22><circle cx=%2210.5%22 cy=%2210.5%22 r=%226.5%22/><path d=%22M20 20l-4.6-4.6%22/><path d=%22M8 11.5l1.8-2 1.6 1.4 2-2.4%22/></svg>")}
+.analysis-branches .branch-card:nth-child(2){--af-ic:url("data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22%237af0c4%22 stroke-width=%221.9%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22><path d=%22M3 19h18%22/><path d=%22M4 15l4.5-4.5 3.5 2.5 7-7%22/><path d=%22M4 17l5-2.5 4 1 7-4%22/></svg>")}
+.analysis-branches .branch-card>span{display:block;padding-right:60px;font-size:12.5px;color:var(--af-sub)}
+.analysis-branches .branch-card h2{font-size:21px;line-height:1.4;margin:6px 60px 4px 0}
+.analysis-branches .branch-card p{font-size:13.5px;line-height:1.65;color:var(--af-sub);margin:6px 0 14px}
+.analysis-branches .branch-card>b{display:inline-flex;align-items:center;min-height:32px;padding:0 14px;border-radius:999px;background:rgba(122,240,196,.12);border:1px solid rgba(122,240,196,.38);font-size:13.5px}
+.analysis-branches .branch-card:hover,.analysis-branches .branch-card:active{border-color:var(--af-line2);background:var(--af-card2)}
+
+/* 개별 검색 */
+body[data-view="analysis-entry"] .search-label{font-size:13px;font-weight:700;color:var(--af-sub);margin:0 2px 8px}
+body[data-view="analysis-entry"] .entry-search-field{border:1.5px solid rgba(122,240,196,.75);border-radius:18px;background:rgba(8,29,39,.97);box-shadow:0 0 0 1px rgba(122,240,196,.08),0 0 22px rgba(33,201,170,.22)}
+body[data-view="analysis-entry"] .entry-search-field:focus-within{outline:2px solid #bcffe7;outline-offset:2px;border-color:var(--af-mint)}
+body[data-view="analysis-entry"] #entry-search:focus-visible{outline:none}
+body[data-view="analysis-entry"] .entry-search-field svg{stroke:var(--af-mint)}
+body[data-view="analysis-entry"] #entry-status{font-size:13px;color:var(--af-sub);margin:12px 4px 10px}
+#entry-results ul{border-color:rgba(122,240,196,.3);border-radius:14px;background:rgba(7,25,35,.97);box-shadow:var(--af-shadow)}
+#entry-results .entry-result{border-bottom-color:rgba(122,240,196,.1)}
+#entry-results li:last-child .entry-result{border-bottom:0}
+#entry-results .entry-result:hover,#entry-results .entry-result:active{background:rgba(122,240,196,.07)}
+#entry-results .entry-result small{color:var(--af-mute)}
+#entry-results .entry-result-go{color:var(--af-mint);font-weight:700;border-left-color:rgba(122,240,196,.18)}
+body[data-view="analysis-entry"] .entry-guide{background:var(--af-card);border:1px solid var(--af-line);border-radius:var(--af-r);padding:24px 18px 22px;margin-top:18px;box-shadow:var(--af-shadow)}
+body[data-view="analysis-entry"] .entry-guide img{width:68px;height:68px;padding:10px;border-radius:50%;border:1px solid rgba(122,240,196,.5);background:radial-gradient(circle,rgba(122,240,196,.16),rgba(122,240,196,.02) 70%)}
+body[data-view="analysis-entry"] .entry-guide h2{font-size:19px;margin:12px 0 8px}
+body[data-view="analysis-entry"] .entry-guide p{font-size:13.5px;line-height:1.75;margin:0;color:var(--af-sub)}
+
+/* 비교: 단계형 선택 → 결과 */
+body[data-view="comparison-selection"] main.analysis-entry{counter-reset:af-step}
+body[data-view="comparison-selection"] main.analysis-entry>.compare-note{margin:0 2px 4px;font-size:13.5px}
+body[data-view="comparison-selection"] .compare-panel{background:var(--af-card);border:1px solid var(--af-line);border-radius:var(--af-r);padding:20px;margin:14px 0;box-shadow:var(--af-shadow)}
+body[data-view="comparison-selection"] .compare-panel h2{display:flex;align-items:center;gap:10px;font-size:18px;line-height:1.4;margin:0 0 12px}
+body[data-view="comparison-selection"] main.analysis-entry>.compare-panel>h2::before{counter-increment:af-step;content:counter(af-step);flex:none;display:inline-grid;place-items:center;width:28px;height:28px;border-radius:9px;border:1px solid rgba(122,240,196,.45);background:rgba(122,240,196,.1);color:var(--af-mint);font-size:14px;font-weight:800}
+body[data-view="comparison-selection"] .compare-panel .search-label{font-size:13px;font-weight:700;color:var(--af-sub);margin-bottom:8px}
+body[data-view="comparison-selection"] .compare-field{border:1.5px solid rgba(122,240,196,.6);border-radius:14px;background:rgba(8,29,39,.97)}
+body[data-view="comparison-selection"] .compare-field:focus-visible{outline:2px solid #bcffe7;outline-offset:2px;border-color:var(--af-mint)}
+body[data-view="comparison-selection"] .compare-live{font-size:13px;color:#a9e6d0}
+#compare-results{border:1px solid rgba(122,240,196,.28);border-radius:14px;background:rgba(7,25,35,.97)}
+#compare-results:empty{border:0}
+#compare-results .compare-result{background:transparent;border-bottom-color:rgba(122,240,196,.1)}
+#compare-results .compare-result:not(:disabled):hover{background:rgba(122,240,196,.07)}
+#compare-results .compare-result small{color:var(--af-mute)}
+#compare-results .compare-result em{color:var(--af-mint);font-weight:700}
+#compare-selected:not(:empty){margin:14px 0 0;padding:10px 12px 4px;border-radius:14px;background:rgba(122,240,196,.06);border:1px solid var(--af-line)}
+#compare-selected:not(:empty)::before{content:"선택한 ETF";display:block;font-size:12.5px;font-weight:700;color:var(--af-mint);margin:0 0 2px}
+#compare-selected li{border-bottom-color:rgba(122,240,196,.12)}
+#compare-selected li:last-child{border-bottom:0}
+#compare-selected li>button{border-color:rgba(188,211,207,.45);background:rgba(16,40,52,.95);color:#e6f1ee}
+body[data-view="comparison-selection"] .compare-markets{gap:8px}
+body[data-view="comparison-selection"] .compare-markets label{border:1px solid rgba(122,240,196,.16);border-radius:var(--af-rc);background:rgba(12,35,47,.7);padding:10px 12px;font-size:14.5px;font-weight:600}
+body[data-view="comparison-selection"] .compare-markets label:has(input:checked){border-color:var(--af-line2);background:rgba(122,240,196,.1)}
+body[data-view="comparison-selection"] .compare-markets label:has(input:disabled:not(:checked)){opacity:.62}
+body[data-view="comparison-selection"] .compare-markets small{font-weight:400;color:var(--af-mute);margin-top:2px;line-height:1.5}
+body[data-view="comparison-selection"] .compare-panel>.compare-note{font-size:12.5px;line-height:1.7;margin:12px 0 0;color:var(--af-mute)}
+#compare-selection-status{margin:4px 0 0;padding:10px 14px;border-radius:var(--af-rc);background:rgba(9,27,38,.92);border:1px solid var(--af-line);color:#cdeee2}
+#compare-periods button,#compare-basis button{border-color:rgba(122,240,196,.28);background:rgba(12,35,47,.9);font-weight:600}
+#compare-periods button[aria-pressed=true],#compare-basis button[aria-pressed=true]{background:rgba(122,240,196,.18);border-color:var(--af-mint);color:#f1fff9;font-weight:800}
+#compare-dates input{border-color:rgba(122,240,196,.4);border-radius:10px}
+#compare-confirm{min-height:52px;margin-top:6px;border-radius:14px;border:0;background:linear-gradient(180deg,#86f3cc,#4fd6a8);color:#03221a;font-weight:800;box-shadow:0 8px 22px rgba(79,214,168,.22)}
+#compare-confirm:disabled{background:rgba(16,49,58,.95);color:#9fbfb8;border:1px solid rgba(122,240,196,.22);box-shadow:none;opacity:.75}
+#compare-ready:not(:empty){margin:12px 0 0;padding:10px 14px;border-left:3px solid var(--af-mint);border-radius:10px;background:rgba(9,27,38,.92);color:#d3ece4;font-size:13.5px}
+#comparison-error:not([hidden]){margin:14px 0 0;padding:12px 14px;border-radius:var(--af-rc);background:rgba(66,20,28,.85);border:1px solid rgba(251,113,133,.55);color:#ffd5cf}
+#comparison-range{color:var(--af-sub);font-size:13.5px;margin:0 0 4px}
+#compare-basis{display:inline-flex;gap:4px;padding:4px;margin:10px 0 12px;border-radius:14px;background:rgba(5,18,26,.9);border:1px solid var(--af-line)}
+#compare-basis button{border-color:transparent;background:transparent;border-radius:10px;min-width:96px}
+#comparison-chart{padding:8px 6px 2px;border-radius:14px;background:rgba(4,15,22,.92);border:1px solid rgba(122,240,196,.14)}
+#comparison-legend{gap:6px;margin:12px 0}
+#comparison-legend li{align-items:center;padding:7px 10px;border-radius:10px;background:rgba(12,35,47,.7);line-height:1.45;overflow-wrap:anywhere}
+#comparison-legend li i{flex:0 0 18px;height:4px;margin:0;border-radius:2px}
+#comparison-table-basis{font-size:12.5px;line-height:1.7;color:var(--af-mute)}
+.comparison-table-wrap{border:1px solid rgba(122,240,196,.16);border-radius:12px;background:rgba(5,18,26,.9)}
+.comparison-table thead th{background:rgba(12,35,47,.98);color:var(--af-sub);font-size:12.5px;font-weight:700}
+.comparison-table tbody th{font-weight:600}
+.comparison-table td{font-variant-numeric:tabular-nums;font-weight:700}
+.comparison-table th:first-child,.comparison-table td:first-child{position:sticky;left:0;z-index:1;background:rgba(9,27,38,.99)}
+.comparison-table thead th:first-child{background:rgba(12,35,47,.99)}
+.comparison-available:not(:empty){margin:4px 0 0;padding:10px 14px 10px 30px;border-radius:var(--af-rc);background:rgba(9,27,38,.85);border:1px solid rgba(122,240,196,.12)}
+@media(min-width:561px){body[data-view="comparison-selection"] .compare-markets{grid-template-columns:1fr 1fr}}
+@media(max-width:440px){
+ body[data-view="comparison-selection"] .compare-panel{padding:16px 14px}
+ .analysis-branches .branch-card{padding:18px 16px}
+}
+@media(max-width:370px){
+ .analysis-entry .entry-hero img{width:128px;height:128px}
+ .analysis-branches .branch-card h2{font-size:19.5px}
+}
+@media(min-width:761px){
+ .analysis-entry .entry-hero{min-height:210px}
+ .analysis-entry .entry-hero img{width:200px;height:200px}
+}
+/* 비교 그래프 축 글자: SVG 축소 비율 보정(값·좌표 불변, 글자 크기와 외곽선만) */
+#comparison-chart .comparison-chart text{font-size:16px;paint-order:stroke;stroke:#04131c;stroke-width:4px;stroke-linejoin:round}
+@media(max-width:560px){#comparison-chart .comparison-chart text{font-size:24px}}
+@media(max-width:400px){#comparison-chart .comparison-chart text{font-size:27px}}
+/* 상단 '연구소 대문' 바(sticky 44px) + sticky 탭 높이만큼 섹션 이동 여백 확보 */
+html body[data-portal-service="analysis"]:is(#fx,*) .panel.section{scroll-margin-top:118px}
+/* 터치영역: 연구소 대문 링크 44px(바 높이 44px 유지), 검색 입력 44px(필드 전체 높이·글자 16px 불변) */
+body[data-portal-service="analysis"] .portal-return-bar,body[data-portal-service="terms"] .portal-return-bar{padding:0 12px}
+body[data-portal-service="analysis"] .portal-return-link,body[data-portal-service="terms"] .portal-return-link{min-height:44px}
+body[data-view="analysis-entry"] .entry-search-field{padding-top:7px;padding-bottom:7px}
+body[data-view="analysis-entry"] .entry-search-field input{min-height:44px}
+/* 승인 시안(440 진입) 방향: 상단 숲빛을 더 밝게, 아래로 갈수록 딥네이비 — 카드/표 뒤는 그대로 고불투명 */
+body[data-view="analysis-entry"],body[data-view="analysis-hub"],body[data-view="comparison-selection"]{background:linear-gradient(180deg,rgba(6,16,25,0) 0,rgba(6,16,25,.35) 260px,rgba(6,16,25,.86) 560px,#061019 900px),url(assets/forest/forest-bg-tall.webp) top center/cover fixed}
+@media(min-width:761px){body[data-view="analysis-entry"],body[data-view="analysis-hub"],body[data-view="comparison-selection"]{background-image:linear-gradient(180deg,rgba(6,16,25,.2),rgba(6,16,25,.82) 620px,#061019 960px),url(assets/forest/forest-bg-wide.webp)}}
+body[data-view="analysis-entry"] .entry-hero h2,body[data-view="analysis-hub"] .entry-hero h2{font-weight:800;text-shadow:0 2px 12px rgba(2,12,18,.85)}
+/* 승인 시안 방향: 상단 숲(분석 전용 히어로 배경, 원본 숲 아트 기반) → 아래 딥네이비 */
+body[data-view="analysis-entry"],body[data-view="analysis-hub"],body[data-view="comparison-selection"]{background:linear-gradient(180deg,rgba(6,16,25,0) 0,rgba(6,16,25,.18) 200px,rgba(6,16,25,.78) 480px,#061019 660px) top center/100% 100% no-repeat,url(assets/forest/analysis-hero-bg.webp) top center/max(100%,440px) auto no-repeat,#061019}
+@media(min-width:761px){body[data-view="analysis-entry"],body[data-view="analysis-hub"],body[data-view="comparison-selection"]{background:linear-gradient(180deg,rgba(6,16,25,.35),rgba(6,16,25,.86) 560px,#061019 800px) top center/100% 100% no-repeat,url(assets/forest/forest-bg-wide.webp) top center/cover no-repeat,#061019}}
+body[data-view="analysis-entry"]::before,body[data-view="analysis-hub"]::before,body[data-view="comparison-selection"]::before{background:rgba(3,14,19,.12)}
+.analysis-entry .analysis-back,.analysis-entry .entry-heading,.analysis-entry>.compare-note,body[data-view="analysis-entry"] .search-label,body[data-view="analysis-entry"] #entry-status,.analysis-entry .entry-hero p{text-shadow:0 1px 3px rgba(2,10,16,.95),0 0 10px rgba(2,10,16,.8)}

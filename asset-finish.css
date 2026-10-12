@@ -1,0 +1,107 @@
+/* asset-finish.css — 자산관리 디자인 마감 (GrokBot, 2026-10-11)
+   Presentation only. No ledger/calculation/routing behaviour. Loaded LAST on
+   asset-hub.html, asset-home.html, management.html. Uses only existing DOM
+   classes and existing images; analysis/weather pages do not load this file.
+   Accent grammar (same in hub and sub-screens):
+     현황 = mint · 성과 = gold · 계좌·거래 = steel blue · 날씨 = sky        */
+:root{--am-ic-tree:url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='1.9' stroke-linecap='round' stroke-linejoin='round'><path d='M12 21v-7'/><path d='M12 14c-4.4 0-7-2.6-7-6a7 7 0 0 1 14 0c0 3.4-2.6 6-7 6z'/><path d='M12 14l-3-3M12 12l3-3'/><path d='M7 21h10'/></svg>");--am-ic-growth:url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='1.9' stroke-linecap='round' stroke-linejoin='round'><path d='M4 20h16'/><path d='M6 16v-3M10 16v-6M14 16v-4M18 16V8'/><path d='M5 9l5-4 4 3 5-4'/><path d='M16 4h3v3'/></svg>");--am-ic-ledger:url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='1.9' stroke-linecap='round' stroke-linejoin='round'><rect x='5' y='3' width='14' height='18' rx='2'/><path d='M9 3v18'/><path d='M12 8h4M12 12h4M12 16h3'/></svg>");--am-ic-weather:url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='1.9' stroke-linecap='round' stroke-linejoin='round'><path d='M8 6.5A3.5 3.5 0 0 1 14.6 5'/><path d='M8 3v1M3.5 7.5h1M4.8 4.3l.7.7'/><path d='M7 19h10a3.5 3.5 0 0 0 .6-6.95A5 5 0 0 0 8 11a4 4 0 0 0-1 8z'/></svg>");--am-ic-wallet:url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='1.9' stroke-linecap='round' stroke-linejoin='round'><path d='M4 7h14a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2z'/><path d='M4 7l11-3v3'/><path d='M16 13.5h2'/></svg>");--am-ic-save:url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='1.9' stroke-linecap='round' stroke-linejoin='round'><path d='M12 4v10'/><path d='M8 10l4 4 4-4'/><path d='M5 18h14'/></svg>");--am-ic-restore:url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='1.9' stroke-linecap='round' stroke-linejoin='round'><path d='M12 14V4'/><path d='M8 8l4-4 4 4'/><path d='M5 18h14'/></svg>");--am-ic-undo:url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='1.9' stroke-linecap='round' stroke-linejoin='round'><path d='M9 7H5V3'/><path d='M5.5 7A8 8 0 1 1 4 12'/></svg>");--am-mint:#7af0c4;--am-gold:#f3d185;--am-steel:#a9c3e3;--am-sky:#86d8f2;--am-ink:#eef6f3;--am-sub:#bcd3cf;--am-card:rgba(9,27,38,.93);--am-focus:#bcffe7}
+
+/* ───────── P0 · 자산관리 허브 asset-hub.html ───────── */
+body.asset-hub{background:linear-gradient(180deg,rgba(6,16,25,.30) 0,rgba(6,16,25,.62) 240px,rgba(6,16,25,.9) 520px,#061019 820px) top center/100% 100% no-repeat,url(assets/mock/page-bg.webp) top center/max(100%,520px) auto no-repeat,#061019!important;background-attachment:scroll!important;min-height:100dvh}
+html:has(body.asset-hub){background:#061019}
+body.asset-hub .asset-hub-main{max-width:760px;padding:14px 18px calc(96px + env(safe-area-inset-bottom))}
+/* hero: text left, refined tree right (sibling of analysis hub hero) */
+body.asset-hub .asset-hub-heading{position:relative;display:grid;grid-template-columns:minmax(0,1fr) 136px;grid-template-rows:1fr auto auto auto 1fr;grid-template-areas:". tree" "brand tree" "title tree" "lead tree" ". tree";align-items:center;column-gap:6px;text-align:left;margin:0 0 14px;padding:4px 0 2px;isolation:isolate}
+body.asset-hub .asset-hub-heading>span{grid-area:brand;display:inline-flex;align-items:center;gap:6px;font-size:12.5px;font-weight:700;letter-spacing:.02em;color:var(--am-mint);text-shadow:0 1px 3px rgba(2,10,16,.9)}
+body.asset-hub .asset-hub-heading>span:before{content:"";width:20px;height:20px;flex:none;background:url(assets/forest/sprout-mark.webp) center/contain no-repeat}
+body.asset-hub .asset-hub-heading h1{grid-area:title;font-size:26px;line-height:1.3;letter-spacing:-.5px;margin:6px 0 8px;color:#f3fbf7;text-shadow:0 2px 10px rgba(2,10,16,.85)}
+body.asset-hub .asset-hub-heading p{grid-area:lead;font-size:14.5px;line-height:1.65;color:#d6e7e2;margin:0;text-shadow:0 1px 4px rgba(2,10,16,.95)}
+body.asset-hub .asset-hub-heading img{grid-area:tree;justify-self:end;width:136px;height:136px;margin:0;object-fit:contain;position:relative;z-index:1;filter:drop-shadow(0 0 16px rgba(255,214,96,.20)) drop-shadow(0 8px 14px rgba(0,0,0,.55))}
+/* soft canopy halo + ground glow behind the approved tree (image itself unchanged) */
+body.asset-hub .asset-hub-heading:before{content:"";position:absolute;z-index:0;right:-10px;top:50%;width:170px;height:170px;transform:translateY(-52%);border-radius:50%;background:radial-gradient(circle,rgba(122,240,196,.16) 0,rgba(243,209,133,.08) 38%,transparent 68%);pointer-events:none}
+body.asset-hub .asset-hub-heading:after{content:"";position:absolute;z-index:0;right:4px;bottom:2px;width:130px;height:16px;border-radius:50%;background:radial-gradient(ellipse,rgba(122,240,196,.22),transparent 70%);pointer-events:none}
+/* 4 branches: one decision list, accent per destination */
+body.asset-hub .asset-branches{display:grid;grid-template-columns:1fr;gap:10px}
+body.asset-hub .asset-branch{--ac:var(--am-mint);--ac-rgb:122,240,196;position:relative;display:grid;grid-template-columns:48px minmax(0,1fr);align-items:start;column-gap:14px;min-height:0;padding:13px 16px 13px 18px;border-radius:18px;border:1px solid rgba(var(--ac-rgb),.26);background:var(--am-card);box-shadow:0 10px 26px rgba(0,0,0,.3);color:var(--am-ink);text-decoration:none;overflow:hidden;transition:border-color .15s,background-color .15s}
+body.asset-hub .asset-branch:nth-child(1){--ac:var(--am-mint);--ac-rgb:122,240,196;background:radial-gradient(120% 90% at 100% 0,rgba(64,150,104,.30),transparent 60%),linear-gradient(150deg,rgba(14,46,40,.95),rgba(9,27,38,.95))}
+body.asset-hub .asset-branch:nth-child(2){--ac:var(--am-gold);--ac-rgb:243,209,133;background:radial-gradient(110% 90% at 100% 0,rgba(176,140,60,.20),transparent 60%),var(--am-card)}
+body.asset-hub .asset-branch:nth-child(3){--ac:var(--am-steel);--ac-rgb:169,195,227;background:repeating-linear-gradient(180deg,transparent 0 23px,rgba(169,195,227,.055) 23px 24px),linear-gradient(150deg,rgba(14,30,48,.96),rgba(8,20,32,.96))}
+body.asset-hub .asset-branch:nth-child(4){--ac:var(--am-sky);--ac-rgb:134,216,242;background:radial-gradient(110% 90% at 100% 0,rgba(70,140,180,.24),transparent 62%),var(--am-card)}
+/* accent spine — differentiates 현황(view) and 계좌·거래(tool) at a glance */
+body.asset-hub .asset-branch:after{content:"";position:absolute;left:0;top:14px;bottom:14px;width:3px;border-radius:0 3px 3px 0;background:var(--ac);opacity:.85}
+/* icon tile, existing icon image tinted via mask */
+body.asset-hub .asset-branch:before{content:"";position:absolute;left:18px;top:13px;width:48px;height:48px;box-sizing:border-box;border-radius:14px;border:1px solid rgba(var(--ac-rgb),.38);background:rgba(var(--ac-rgb),.10)}
+body.asset-hub .asset-branch>img{position:relative;z-index:1;grid-column:1;width:48px;height:48px;object-position:-999px 0;background:var(--ac);-webkit-mask:var(--ic) center/26px 26px no-repeat;mask:var(--ic) center/26px 26px no-repeat}
+body.asset-hub .asset-branch:nth-child(1)>img{--ic:var(--am-ic-tree)}
+body.asset-hub .asset-branch:nth-child(2)>img{--ic:var(--am-ic-growth)}
+body.asset-hub .asset-branch:nth-child(3)>img{--ic:var(--am-ic-ledger)}
+body.asset-hub .asset-branch:nth-child(4)>img{--ic:var(--am-ic-weather)}
+body.asset-hub .asset-branch>div{min-width:0}
+body.asset-hub .asset-branch span{display:block;font-size:12.5px;line-height:1.5;color:rgba(var(--ac-rgb),.92);font-weight:600}
+body.asset-hub .asset-branch h2{font-size:19.5px;line-height:1.35;margin:2px 0 3px;color:#f6fbf9;letter-spacing:-.3px;overflow-wrap:anywhere}
+body.asset-hub .asset-branch p{font-size:13.5px;line-height:1.55;color:var(--am-sub);margin:0 0 8px;overflow-wrap:anywhere}
+body.asset-hub .asset-branch b{display:inline-flex;align-items:center;min-height:28px;padding:0 13px;border-radius:999px;background:rgba(var(--ac-rgb),.12);border:1px solid rgba(var(--ac-rgb),.38);color:var(--ac);font-size:13.5px;font-weight:700}
+body.asset-hub .asset-branch:hover,body.asset-hub .asset-branch:active{outline:0;border-color:rgba(var(--ac-rgb),.6)}
+body.asset-hub .asset-branch:focus-visible{outline:2px solid var(--am-focus);outline-offset:3px;border-color:rgba(var(--ac-rgb),.7)}
+body.asset-hub .asset-hub-note{margin:18px 0 0;font-size:12.5px;line-height:1.75;color:#a9c0b9}
+@media(max-width:370px){body.asset-hub .asset-hub-main{padding-left:14px;padding-right:14px}body.asset-hub .asset-hub-heading{grid-template-columns:minmax(0,1fr) 112px}body.asset-hub .asset-hub-heading img{width:112px;height:112px}body.asset-hub .asset-hub-heading:before{width:140px;height:140px}body.asset-hub .asset-hub-heading h1{font-size:24px}body.asset-hub .asset-hub-heading p{font-size:14px}body.asset-hub .asset-branch{padding:14px 14px 14px 16px;column-gap:12px}body.asset-hub .asset-branch:before{left:16px;top:14px}body.asset-hub .asset-branch h2{font-size:18.5px}body.asset-hub .asset-branch p{font-size:13px}}
+@media(min-width:700px){body.asset-hub{background:linear-gradient(180deg,rgba(6,16,25,.35),rgba(6,16,25,.84) 520px,#061019 820px) top center/100% 100% no-repeat,url(assets/mock/page-bg.webp) top center/cover no-repeat,#061019!important}body.asset-hub .asset-hub-main{padding-top:34px}body.asset-hub .asset-hub-heading{grid-template-columns:minmax(0,1fr) 210px;margin-bottom:22px}body.asset-hub .asset-hub-heading h1{font-size:32px}body.asset-hub .asset-hub-heading p{font-size:16px}body.asset-hub .asset-hub-heading img{width:200px;height:200px}body.asset-hub .asset-hub-heading:before{width:250px;height:250px;right:-20px}body.asset-hub .asset-hub-heading:after{width:190px;right:8px}body.asset-hub .asset-branches{grid-template-columns:1fr 1fr;gap:14px}body.asset-hub .asset-branch{padding:20px 20px 20px 22px;min-height:150px}body.asset-hub .asset-branch:before{left:22px;top:20px}body.asset-hub .asset-hub-note{text-align:center}}
+
+/* ───────── P1 · 공통: 허브 복귀 · 모드 제목 (asset-home / management) ───────── */
+body.garden.mc .lab-main>.asset-breadcrumb{display:inline-flex;align-items:center;gap:4px;min-height:44px;margin:0 calc(var(--u)*13.38) 0 calc(var(--u)*15.29);padding:0 calc(var(--u)*12) 0 calc(var(--u)*10);border-radius:999px;color:var(--am-mint);font-size:calc(var(--u)*14);font-weight:700;text-decoration:none;text-shadow:0 1px 3px rgba(2,10,16,.9)}
+body.garden.mc .lab-main>.asset-breadcrumb:hover{background:rgba(122,240,196,.08)}
+body.garden.mc .lab-main>.asset-breadcrumb:focus-visible{outline:2px solid var(--am-focus);outline-offset:0}
+body.garden.mc .asset-mode-head{--ac:var(--am-steel);--ac-rgb:169,195,227;position:relative;margin:calc(var(--u)*2) calc(var(--u)*13.38) calc(var(--u)*12) calc(var(--u)*15.29);padding:calc(var(--u)*14) calc(var(--u)*16) calc(var(--u)*14) calc(var(--u)*18);border-radius:calc(var(--u)*16);border:1px solid rgba(var(--ac-rgb),.26);background:linear-gradient(150deg,rgba(14,30,48,.9),rgba(8,20,32,.9));box-shadow:0 10px 24px rgba(0,0,0,.25)}
+body.garden.mc[data-management-mode="performance"] .asset-mode-head{--ac:var(--am-gold);--ac-rgb:243,209,133;background:radial-gradient(110% 100% at 100% 0,rgba(176,140,60,.18),transparent 60%),linear-gradient(150deg,rgba(14,30,42,.92),rgba(8,20,30,.92))}
+body.garden.mc[data-management-mode="ledger"] .asset-mode-head{background:repeating-linear-gradient(180deg,transparent 0 23px,rgba(169,195,227,.05) 23px 24px),linear-gradient(150deg,rgba(14,30,48,.92),rgba(8,20,32,.92))}
+body.garden.mc .asset-mode-head:after{content:"";position:absolute;left:0;top:calc(var(--u)*14);bottom:calc(var(--u)*14);width:3px;border-radius:0 3px 3px 0;background:var(--ac)}
+body.garden.mc .asset-mode-head h1{font-size:calc(var(--u)*24)!important;line-height:1.35!important;margin:0 0 calc(var(--u)*4)!important;color:#f6fbf9;letter-spacing:-.4px}
+body.garden.mc .asset-mode-head p{font-size:calc(var(--u)*14);line-height:1.6;color:var(--am-sub);margin:0 0 calc(var(--u)*10)}
+body.garden.mc .asset-mode-head .lab-btn{display:inline-flex;align-items:center;min-height:44px;padding:0 calc(var(--u)*14);border-radius:999px;font-size:calc(var(--u)*14)!important;font-weight:700;background:rgba(255,255,255,.04);border:1px solid rgba(190,215,225,.32);color:#dfeaf0;box-shadow:none}
+body.garden.mc[data-management-mode="performance"] .asset-mode-head .lab-btn{color:#d6e3f2;border-color:rgba(169,195,227,.42)}
+body.garden.mc[data-management-mode="ledger"] .asset-mode-head .lab-btn{color:#f3e2b6;border-color:rgba(243,209,133,.42)}
+body.garden.mc .asset-mode-head .lab-btn:focus-visible{outline:2px solid var(--am-focus);outline-offset:2px}
+body.garden.mc .lab-main>.asset-performance-title{margin:calc(var(--u)*16) calc(var(--u)*13.38) calc(var(--u)*10) calc(var(--u)*15.29);font-size:calc(var(--u)*17);line-height:1.4;color:#f1f7f4;display:flex;align-items:center;gap:calc(var(--u)*8)}
+body.garden.mc .lab-main>.asset-performance-title:before{content:"";width:calc(var(--u)*8);height:calc(var(--u)*8);border-radius:50%;background:var(--am-gold);box-shadow:0 0 8px rgba(243,209,133,.6)}
+body.garden.mc .lab-main>.scope-bar{margin-bottom:calc(var(--u)*4)!important}
+body.garden.mc .lab-main>.record-note{margin:calc(var(--u)*16) calc(var(--u)*13.38) 0 calc(var(--u)*15.29);font-size:calc(var(--u)*13);line-height:1.7;color:#aebfc5}
+body.garden.mc .lab-main>#mc-notices{margin:calc(var(--u)*14) calc(var(--u)*13.38) 0 calc(var(--u)*15.29)}
+
+/* ───────── P1 ① 자산 현황 asset-home.html ───────── */
+/* 현황 → 거래 이동 버튼은 '도구' 색(steel)으로: 현황이 원장 메인처럼 보이지 않게 */
+body.garden.mc[data-view=home] .mc-below .lab-actions .lab-primary{background:linear-gradient(150deg,rgba(18,36,56,.94),rgba(10,24,38,.94))!important;border:1px solid rgba(169,195,227,.45)!important;color:#e2ecf8!important;box-shadow:0 8px 20px rgba(0,0,0,.25)!important;font-weight:700}
+body.garden.mc[data-view=home] .mc-below .lab-actions .lab-primary:hover{border-color:rgba(169,195,227,.7)!important}
+body.garden.mc[data-view=home] .mc-below .lab-panel{background:linear-gradient(150deg,rgba(12,32,44,.9),rgba(8,22,32,.92))}
+
+/* ───────── P1 ② 배당 성과 (performance) ───────── */
+body.garden.mc[data-management-mode="performance"] .mc-chart .empty-records{margin:calc(var(--u)*30) 0 calc(var(--u)*16);padding:calc(var(--u)*10) calc(var(--u)*12);border:1px dashed rgba(243,209,133,.32);border-radius:calc(var(--u)*12);color:#d9e4e6;background:rgba(243,209,133,.04)}
+body.garden.mc[data-management-mode="performance"] .mc-chart .mc-chart-cap{margin-top:calc(var(--u)*2)!important;color:#bdcbd1!important;font-size:calc(var(--u)*13)!important}
+body.garden.mc[data-management-mode="performance"] .mc-summary{border-color:rgba(243,209,133,.24)!important}
+body.garden.mc[data-management-mode="performance"] .mc-summary b{white-space:normal;overflow-wrap:anywhere}
+
+/* ───────── P1 ③ 계좌·거래 (ledger) ───────── */
+body.garden.mc[data-management-mode="ledger"] .mc-acc,body.garden.mc[data-management-mode="ledger"] .mc-rec{border-color:rgba(169,195,227,.28)!important}
+body.garden.mc[data-management-mode="ledger"] .mc-acc .empty-records,body.garden.mc[data-management-mode="ledger"] .mc-rec .empty-records{margin:calc(var(--u)*8) calc(var(--u)*12) calc(var(--u)*14);padding:calc(var(--u)*12);border:1px dashed rgba(169,195,227,.3);border-radius:calc(var(--u)*12);color:#d3dee7;font-size:calc(var(--u)*14);line-height:1.6}
+/* 보조 작업 4개: 아이콘으로 구분, 같은 무게 */
+body.garden.mc[data-management-mode="ledger"] .lab-main>.lab-actions .lab-btn{display:inline-flex;align-items:center;justify-content:center;gap:calc(var(--u)*7);background:linear-gradient(150deg,rgba(18,36,52,.94),rgba(11,25,38,.94))!important;border:1px solid rgba(169,195,227,.3)!important;color:#e6eef5!important;box-shadow:none!important;font-weight:600}
+body.garden.mc[data-management-mode="ledger"] .lab-main>.lab-actions .lab-btn:before{content:"";flex:none;width:calc(var(--u)*18);height:calc(var(--u)*18);background:var(--am-steel);-webkit-mask:var(--ic) center/contain no-repeat;mask:var(--ic) center/contain no-repeat}
+body.garden.mc[data-management-mode="ledger"] .lab-main>.lab-actions .lab-btn[data-action=use]{--ic:var(--am-ic-wallet)}
+body.garden.mc[data-management-mode="ledger"] .lab-main>.lab-actions .lab-btn[data-action=use]:before{background:var(--am-gold)}
+body.garden.mc[data-management-mode="ledger"] .lab-main>.lab-actions .lab-btn[data-action=backup]{--ic:var(--am-ic-save)}
+body.garden.mc[data-management-mode="ledger"] .lab-main>.lab-actions .lab-btn[data-action=restore]{--ic:var(--am-ic-restore)}
+body.garden.mc[data-management-mode="ledger"] .lab-main>.lab-actions .lab-btn[data-action=rollback]{--ic:var(--am-ic-undo)}
+body.garden.mc[data-management-mode="ledger"] .lab-main>.lab-actions .lab-btn:hover{border-color:rgba(169,195,227,.6)!important}
+/* 파괴적 작업: 접힌 상태 유지, 차분한 경고 톤 — 과한 빨강/채움 없음 */
+body.garden.mc .lab-main>.asset-protected{margin:calc(var(--u)*16) calc(var(--u)*13.38) 0 calc(var(--u)*15.29);border:1px solid rgba(214,170,130,.32);background:rgba(40,28,20,.35);border-radius:calc(var(--u)*12)}
+body.garden.mc .asset-protected>summary{min-height:48px;color:#e6c7a7;font-size:calc(var(--u)*13.5);font-weight:600;list-style-position:inside}
+body.garden.mc .asset-protected>summary:focus-visible{outline:2px solid var(--am-focus);outline-offset:2px;border-radius:8px}
+body.garden.mc .asset-protected .lab-btn[data-action=reset]{min-height:44px;padding:0 calc(var(--u)*16);background:transparent!important;border:1px solid rgba(214,170,130,.5)!important;color:#efd2b4!important;box-shadow:none!important;font-weight:600}
+
+/* ───────── 공통 접근성 ───────── */
+body.garden.mc .lab-main :is(a,button,select,summary):focus-visible,body.garden.mc #ledger-dialog :is(input,select,button):focus-visible{outline:2px solid var(--am-focus);outline-offset:2px}
+body.garden.mc .mc-tabs button:focus-visible{outline-offset:-2px}
+@media(prefers-reduced-motion:reduce){body.asset-hub .asset-branch,body.garden.mc .lab-main *{transition:none!important;animation:none!important}}
+
+/* 조회 계좌/종목 선택: 긴 계좌명·종목명에서 라벨 세로 줄바꿈과 선택창 넘침 방지 */
+body.garden.mc .mc-scope-value>span{flex:none;white-space:nowrap;color:#cfdbe0}
+body.garden.mc .mc-scope-value select{min-width:0;width:100%;text-overflow:ellipsis;overflow:hidden;white-space:nowrap}

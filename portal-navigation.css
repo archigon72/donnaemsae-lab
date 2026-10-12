@@ -1,0 +1,17 @@
+.portal-return-bar { position: sticky; top: 0; z-index: 100; display: flex; justify-content: flex-end; min-height: 44px; padding: 6px 12px; background: #0c1521; }
+.portal-return-link { display: inline-flex; align-items: center; gap: 6px; min-height: 32px; color: #eff5fa; text-decoration: none; font: 14px/1.4 system-ui, sans-serif; }
+.portal-return-link:focus-visible { outline: 2px solid #91cdb0; outline-offset: 3px; }
+body[data-portal-service="analysis"] .section-tabs,
+body[data-portal-service="terms"] .section-tabs { top: 44px !important; }
+
+/* Reuse management mc-nav geometry, palette and icon masks. Scoped to analysis. */
+body.has-service-bottom{padding-bottom:calc(84px + env(safe-area-inset-bottom));--service-unit:min(1px,calc(100vw / 440))}
+body.has-service-bottom .service-bottom{display:flex;position:fixed;left:0;right:0;bottom:0;height:calc(66px + env(safe-area-inset-bottom));padding:0 0 env(safe-area-inset-bottom);gap:0;justify-content:space-around;background:linear-gradient(180deg,rgba(10,28,40,.96),rgba(5,16,26,.98));border-top:1px solid rgba(130,190,205,.38);border-radius:18px 18px 0 0;box-shadow:0 -8px 24px rgba(0,0,0,.35);z-index:90}
+body.has-service-bottom .service-bottom a{flex:1 1 0;min-width:0;min-height:44px;position:relative;display:block;padding:36px 0 0;margin:0;background:none;color:#e9f0f2;font:700 14.5px/20px system-ui,sans-serif;text-align:center;text-decoration:none}
+body.has-service-bottom .service-bottom a:before{content:'';position:absolute;left:calc(50% - 15px);top:8px;width:30px;height:28px;background:currentColor;-webkit-mask:var(--ic) center/contain no-repeat;mask:var(--ic) center/contain no-repeat}
+body.has-service-bottom .service-bottom a:nth-child(1){--ic:url(assets/mock/i-nav-home.webp)}
+body.has-service-bottom .service-bottom a:nth-child(2){--ic:url(assets/mock/i-nav-compass.webp)}
+body.has-service-bottom .service-bottom a:nth-child(3){--ic:url(assets/mock/i-nav-mgmt.webp)}
+body.has-service-bottom .service-bottom a.active{color:#7af0c4}
+.service-bottom a:focus-visible{outline:2px solid #91cdb0;outline-offset:-3px}
+@media(min-width:600px){body.has-service-bottom .service-bottom{width:440px;left:50%;right:auto;transform:translateX(-50%)}}

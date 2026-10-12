@@ -1,0 +1,1944 @@
+{
+  "items": [
+    {
+      "code": "0004G0",
+      "price": "8315",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-09T06:03:19.023144+00:00",
+      "source": "NAVER_POLLING_DAILY_CLOSE_V1"
+    },
+    {
+      "code": "0005A0",
+      "price": "9090",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-09T06:03:19.201904+00:00",
+      "source": "NAVER_POLLING_DAILY_CLOSE_V1"
+    },
+    {
+      "code": "0008S0",
+      "price": "9125",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-09T06:03:19.016607+00:00",
+      "source": "NAVER_POLLING_DAILY_CLOSE_V1"
+    },
+    {
+      "code": "0013P0",
+      "price": "11165",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-09T06:03:19.171487+00:00",
+      "source": "NAVER_POLLING_DAILY_CLOSE_V1"
+    },
+    {
+      "code": "0018C0",
+      "price": "10140",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-09T06:03:19.212907+00:00",
+      "source": "NAVER_POLLING_DAILY_CLOSE_V1"
+    },
+    {
+      "code": "0022T0",
+      "price": "11905",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-09T06:03:19.169801+00:00",
+      "source": "NAVER_POLLING_DAILY_CLOSE_V1"
+    },
+    {
+      "code": "0046Y0",
+      "price": "12150",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-09T06:03:25.425477+00:00",
+      "source": "NAVER_POLLING_DAILY_CLOSE_V1"
+    },
+    {
+      "code": "0049M0",
+      "price": "10950",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-09T06:03:25.646401+00:00",
+      "source": "NAVER_POLLING_DAILY_CLOSE_V1"
+    },
+    {
+      "code": "0052D0",
+      "price": "14985",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-09T06:03:25.398151+00:00",
+      "source": "NAVER_POLLING_DAILY_CLOSE_V1"
+    },
+    {
+      "code": "0084D0",
+      "price": "11200",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-09T06:03:25.675855+00:00",
+      "source": "NAVER_POLLING_DAILY_CLOSE_V1"
+    },
+    {
+      "code": "0084E0",
+      "price": "9915",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-09T06:03:25.572224+00:00",
+      "source": "NAVER_POLLING_DAILY_CLOSE_V1"
+    },
+    {
+      "code": "0089C0",
+      "price": "11180",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-09T06:03:25.624386+00:00",
+      "source": "NAVER_POLLING_DAILY_CLOSE_V1"
+    },
+    {
+      "code": "0089D0",
+      "price": "12695",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-09T06:03:32.336311+00:00",
+      "source": "NAVER_POLLING_DAILY_CLOSE_V1"
+    },
+    {
+      "code": "0094L0",
+      "price": "6470",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-09T06:03:32.370715+00:00",
+      "source": "NAVER_POLLING_DAILY_CLOSE_V1"
+    },
+    {
+      "code": "0094M0",
+      "price": "16680",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-09T06:03:32.339587+00:00",
+      "source": "NAVER_POLLING_DAILY_CLOSE_V1"
+    },
+    {
+      "code": "0097L0",
+      "price": "12425",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-09T06:03:32.323475+00:00",
+      "source": "NAVER_POLLING_DAILY_CLOSE_V1"
+    },
+    {
+      "code": "0098N0",
+      "price": "12610",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-09T06:03:32.559176+00:00",
+      "source": "NAVER_POLLING_DAILY_CLOSE_V1"
+    },
+    {
+      "code": "0104N0",
+      "price": "20410",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-09T06:03:32.360912+00:00",
+      "source": "NAVER_POLLING_DAILY_CLOSE_V1"
+    },
+    {
+      "code": "0104P0",
+      "price": "10600",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-09T06:03:40.696672+00:00",
+      "source": "NAVER_POLLING_DAILY_CLOSE_V1"
+    },
+    {
+      "code": "0105E0",
+      "price": "12425",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-09T06:03:40.348555+00:00",
+      "source": "NAVER_POLLING_DAILY_CLOSE_V1"
+    },
+    {
+      "code": "0107F0",
+      "price": "10530",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-09T06:03:40.533881+00:00",
+      "source": "NAVER_POLLING_DAILY_CLOSE_V1"
+    },
+    {
+      "code": "0111J0",
+      "price": "11360",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-09T06:03:40.596734+00:00",
+      "source": "NAVER_POLLING_DAILY_CLOSE_V1"
+    },
+    {
+      "code": "0115C0",
+      "price": "10305",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-09T06:03:40.712594+00:00",
+      "source": "NAVER_POLLING_DAILY_CLOSE_V1"
+    },
+    {
+      "code": "0127T0",
+      "price": "10715",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-09T06:03:40.726747+00:00",
+      "source": "NAVER_POLLING_DAILY_CLOSE_V1"
+    },
+    {
+      "code": "0127V0",
+      "price": "10680",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-09T06:03:47.349615+00:00",
+      "source": "NAVER_POLLING_DAILY_CLOSE_V1"
+    },
+    {
+      "code": "0128D0",
+      "price": "5945",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-09T06:03:47.188493+00:00",
+      "source": "NAVER_POLLING_DAILY_CLOSE_V1"
+    },
+    {
+      "code": "0138T0",
+      "price": "9260",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-09T06:03:47.539699+00:00",
+      "source": "NAVER_POLLING_DAILY_CLOSE_V1"
+    },
+    {
+      "code": "0139P0",
+      "price": "13130",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-09T06:03:47.455186+00:00",
+      "source": "NAVER_POLLING_DAILY_CLOSE_V1"
+    },
+    {
+      "code": "0144L0",
+      "price": "9490",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-09T06:03:47.157430+00:00",
+      "source": "NAVER_POLLING_DAILY_CLOSE_V1"
+    },
+    {
+      "code": "0152E0",
+      "price": "10360",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-09T06:03:47.412677+00:00",
+      "source": "NAVER_POLLING_DAILY_CLOSE_V1"
+    },
+    {
+      "code": "0153K0",
+      "price": "11785",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-09T06:03:54.555269+00:00",
+      "source": "NAVER_POLLING_DAILY_CLOSE_V1"
+    },
+    {
+      "code": "0153X0",
+      "price": "10225",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-09T06:03:54.364917+00:00",
+      "source": "NAVER_POLLING_DAILY_CLOSE_V1"
+    },
+    {
+      "code": "0167B0",
+      "price": "11295",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-09T06:03:54.336324+00:00",
+      "source": "NAVER_POLLING_DAILY_CLOSE_V1"
+    },
+    {
+      "code": "0176P0",
+      "price": "14695",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-09T06:03:54.734489+00:00",
+      "source": "NAVER_POLLING_DAILY_CLOSE_V1"
+    },
+    {
+      "code": "0177R0",
+      "price": "11625",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-09T06:03:54.771904+00:00",
+      "source": "NAVER_POLLING_DAILY_CLOSE_V1"
+    },
+    {
+      "code": "0189Z0",
+      "price": "9940",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-09T06:03:54.596344+00:00",
+      "source": "NAVER_POLLING_DAILY_CLOSE_V1"
+    },
+    {
+      "code": "0190G0",
+      "price": "10095",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-09T06:04:00.880443+00:00",
+      "source": "NAVER_POLLING_DAILY_CLOSE_V1"
+    },
+    {
+      "code": "0198A0",
+      "price": "8870",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-09T06:04:01.134703+00:00",
+      "source": "NAVER_POLLING_DAILY_CLOSE_V1"
+    },
+    {
+      "code": "0199C0",
+      "price": "8735",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-09T06:04:01.119751+00:00",
+      "source": "NAVER_POLLING_DAILY_CLOSE_V1"
+    },
+    {
+      "code": "0210E0",
+      "price": "7020",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-09T06:04:01.013745+00:00",
+      "source": "NAVER_POLLING_DAILY_CLOSE_V1"
+    },
+    {
+      "code": "0219E0",
+      "price": "8090",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-09T06:04:00.922266+00:00",
+      "source": "NAVER_POLLING_DAILY_CLOSE_V1"
+    },
+    {
+      "code": "0222D0",
+      "price": "9940",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-09T06:04:01.125882+00:00",
+      "source": "NAVER_POLLING_DAILY_CLOSE_V1"
+    },
+    {
+      "code": "0223A0",
+      "price": "11960",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-09T06:04:08.229361+00:00",
+      "source": "NAVER_POLLING_DAILY_CLOSE_V1"
+    },
+    {
+      "code": "091170",
+      "price": "15300",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-09T06:04:08.322660+00:00",
+      "source": "NAVER_POLLING_DAILY_CLOSE_V1"
+    },
+    {
+      "code": "104530",
+      "price": "17060",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-09T06:04:08.090637+00:00",
+      "source": "NAVER_POLLING_DAILY_CLOSE_V1"
+    },
+    {
+      "code": "161510",
+      "price": "23900",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-09T06:04:08.401389+00:00",
+      "source": "NAVER_POLLING_DAILY_CLOSE_V1"
+    },
+    {
+      "code": "166400",
+      "price": "24055",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-09T06:04:08.467887+00:00",
+      "source": "NAVER_POLLING_DAILY_CLOSE_V1"
+    },
+    {
+      "code": "211900",
+      "price": "26960",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-09T06:04:08.250779+00:00",
+      "source": "NAVER_POLLING_DAILY_CLOSE_V1"
+    },
+    {
+      "code": "245340",
+      "price": "33225",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-09T06:04:15.630491+00:00",
+      "source": "NAVER_POLLING_DAILY_CLOSE_V1"
+    },
+    {
+      "code": "279530",
+      "price": "17110",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-09T06:04:16.028277+00:00",
+      "source": "NAVER_POLLING_DAILY_CLOSE_V1"
+    },
+    {
+      "code": "289480",
+      "price": "12840",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-09T06:04:15.823781+00:00",
+      "source": "NAVER_POLLING_DAILY_CLOSE_V1"
+    },
+    {
+      "code": "290080",
+      "price": "7220",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-09T06:04:15.839089+00:00",
+      "source": "NAVER_POLLING_DAILY_CLOSE_V1"
+    },
+    {
+      "code": "322410",
+      "price": "21780",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-09T06:04:15.635231+00:00",
+      "source": "NAVER_POLLING_DAILY_CLOSE_V1"
+    },
+    {
+      "code": "336160",
+      "price": "99985",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-09T06:04:15.844524+00:00",
+      "source": "NAVER_POLLING_DAILY_CLOSE_V1"
+    },
+    {
+      "code": "373790",
+      "price": "14420",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-09T06:04:24.070529+00:00",
+      "source": "NAVER_POLLING_DAILY_CLOSE_V1"
+    },
+    {
+      "code": "402970",
+      "price": "14105",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-09T06:04:24.115225+00:00",
+      "source": "NAVER_POLLING_DAILY_CLOSE_V1"
+    },
+    {
+      "code": "429000",
+      "price": "12260",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-09T06:04:23.622848+00:00",
+      "source": "NAVER_POLLING_DAILY_CLOSE_V1"
+    },
+    {
+      "code": "432840",
+      "price": "19405",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-09T06:04:24.291961+00:00",
+      "source": "NAVER_POLLING_DAILY_CLOSE_V1"
+    },
+    {
+      "code": "433330",
+      "price": "21565",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-09T06:04:24.301736+00:00",
+      "source": "NAVER_POLLING_DAILY_CLOSE_V1"
+    },
+    {
+      "code": "441640",
+      "price": "12095",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-09T06:04:23.919851+00:00",
+      "source": "NAVER_POLLING_DAILY_CLOSE_V1"
+    },
+    {
+      "code": "441680",
+      "price": "10630",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-09T06:04:30.200354+00:00",
+      "source": "NAVER_POLLING_DAILY_CLOSE_V1"
+    },
+    {
+      "code": "441800",
+      "price": "27500",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-09T06:04:30.597223+00:00",
+      "source": "NAVER_POLLING_DAILY_CLOSE_V1"
+    },
+    {
+      "code": "446720",
+      "price": "12680",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-09T06:04:30.376789+00:00",
+      "source": "NAVER_POLLING_DAILY_CLOSE_V1"
+    },
+    {
+      "code": "448100",
+      "price": "108040",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-09T06:04:30.224119+00:00",
+      "source": "NAVER_POLLING_DAILY_CLOSE_V1"
+    },
+    {
+      "code": "452360",
+      "price": "12760",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-09T06:04:30.421810+00:00",
+      "source": "NAVER_POLLING_DAILY_CLOSE_V1"
+    },
+    {
+      "code": "453330",
+      "price": "18390",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-09T06:04:30.567966+00:00",
+      "source": "NAVER_POLLING_DAILY_CLOSE_V1"
+    },
+    {
+      "code": "455660",
+      "price": "9150",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-09T06:04:37.440751+00:00",
+      "source": "NAVER_POLLING_DAILY_CLOSE_V1"
+    },
+    {
+      "code": "458730",
+      "price": "13840",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-09T06:04:37.421860+00:00",
+      "source": "NAVER_POLLING_DAILY_CLOSE_V1"
+    },
+    {
+      "code": "458750",
+      "price": "11975",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-09T06:04:37.613274+00:00",
+      "source": "NAVER_POLLING_DAILY_CLOSE_V1"
+    },
+    {
+      "code": "458760",
+      "price": "10070",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-09T06:04:37.225047+00:00",
+      "source": "NAVER_POLLING_DAILY_CLOSE_V1"
+    },
+    {
+      "code": "460660",
+      "price": "10865",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-09T06:04:37.640514+00:00",
+      "source": "NAVER_POLLING_DAILY_CLOSE_V1"
+    },
+    {
+      "code": "460960",
+      "price": "10250",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-09T06:04:37.595017+00:00",
+      "source": "NAVER_POLLING_DAILY_CLOSE_V1"
+    },
+    {
+      "code": "465670",
+      "price": "15345",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-09T06:04:44.681132+00:00",
+      "source": "NAVER_POLLING_DAILY_CLOSE_V1"
+    },
+    {
+      "code": "466940",
+      "price": "25040",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-09T06:04:44.485723+00:00",
+      "source": "NAVER_POLLING_DAILY_CLOSE_V1"
+    },
+    {
+      "code": "468380",
+      "price": "10310",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-09T06:04:44.874276+00:00",
+      "source": "NAVER_POLLING_DAILY_CLOSE_V1"
+    },
+    {
+      "code": "472150",
+      "price": "19510",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-09T06:04:44.912724+00:00",
+      "source": "NAVER_POLLING_DAILY_CLOSE_V1"
+    },
+    {
+      "code": "474220",
+      "price": "15080",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-09T06:04:44.695716+00:00",
+      "source": "NAVER_POLLING_DAILY_CLOSE_V1"
+    },
+    {
+      "code": "475380",
+      "price": "9480",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-09T06:04:44.715693+00:00",
+      "source": "NAVER_POLLING_DAILY_CLOSE_V1"
+    },
+    {
+      "code": "475720",
+      "price": "12290",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-09T06:04:53.417162+00:00",
+      "source": "NAVER_POLLING_DAILY_CLOSE_V1"
+    },
+    {
+      "code": "476690",
+      "price": "9750",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-09T06:04:53.587828+00:00",
+      "source": "NAVER_POLLING_DAILY_CLOSE_V1"
+    },
+    {
+      "code": "476850",
+      "price": "21295",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-09T06:04:53.670341+00:00",
+      "source": "NAVER_POLLING_DAILY_CLOSE_V1"
+    },
+    {
+      "code": "480020",
+      "price": "10175",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-09T06:04:53.799231+00:00",
+      "source": "NAVER_POLLING_DAILY_CLOSE_V1"
+    },
+    {
+      "code": "480030",
+      "price": "9570",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-09T06:04:53.757435+00:00",
+      "source": "NAVER_POLLING_DAILY_CLOSE_V1"
+    },
+    {
+      "code": "480040",
+      "price": "15180",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-09T06:04:53.771901+00:00",
+      "source": "NAVER_POLLING_DAILY_CLOSE_V1"
+    },
+    {
+      "code": "481050",
+      "price": "1022565",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-09T06:05:00.821188+00:00",
+      "source": "NAVER_POLLING_DAILY_CLOSE_V1"
+    },
+    {
+      "code": "482730",
+      "price": "11460",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-09T06:05:00.639323+00:00",
+      "source": "NAVER_POLLING_DAILY_CLOSE_V1"
+    },
+    {
+      "code": "483280",
+      "price": "11910",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-09T06:05:00.851261+00:00",
+      "source": "NAVER_POLLING_DAILY_CLOSE_V1"
+    },
+    {
+      "code": "483290",
+      "price": "9425",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-09T06:05:01.180637+00:00",
+      "source": "NAVER_POLLING_DAILY_CLOSE_V1"
+    },
+    {
+      "code": "484880",
+      "price": "21230",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-09T06:05:00.902620+00:00",
+      "source": "NAVER_POLLING_DAILY_CLOSE_V1"
+    },
+    {
+      "code": "486290",
+      "price": "10540",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-09T06:05:01.050723+00:00",
+      "source": "NAVER_POLLING_DAILY_CLOSE_V1"
+    },
+    {
+      "code": "487950",
+      "price": "12740",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-09T06:05:09.118978+00:00",
+      "source": "NAVER_POLLING_DAILY_CLOSE_V1"
+    },
+    {
+      "code": "489030",
+      "price": "6160",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-09T06:05:08.980384+00:00",
+      "source": "NAVER_POLLING_DAILY_CLOSE_V1"
+    },
+    {
+      "code": "489250",
+      "price": "11935",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-09T06:05:09.339597+00:00",
+      "source": "NAVER_POLLING_DAILY_CLOSE_V1"
+    },
+    {
+      "code": "490590",
+      "price": "14550",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-09T06:05:09.116399+00:00",
+      "source": "NAVER_POLLING_DAILY_CLOSE_V1"
+    },
+    {
+      "code": "490600",
+      "price": "8285",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-09T06:05:09.466015+00:00",
+      "source": "NAVER_POLLING_DAILY_CLOSE_V1"
+    },
+    {
+      "code": "491620",
+      "price": "10460",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-09T06:05:09.488648+00:00",
+      "source": "NAVER_POLLING_DAILY_CLOSE_V1"
+    },
+    {
+      "code": "493420",
+      "price": "11750",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-09T06:05:16.931970+00:00",
+      "source": "NAVER_POLLING_DAILY_CLOSE_V1"
+    },
+    {
+      "code": "493810",
+      "price": "11500",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-09T06:05:17.292228+00:00",
+      "source": "NAVER_POLLING_DAILY_CLOSE_V1"
+    },
+    {
+      "code": "494210",
+      "price": "10605",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-09T06:05:17.067636+00:00",
+      "source": "NAVER_POLLING_DAILY_CLOSE_V1"
+    },
+    {
+      "code": "494300",
+      "price": "8905",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-09T06:05:16.840420+00:00",
+      "source": "NAVER_POLLING_DAILY_CLOSE_V1"
+    },
+    {
+      "code": "494420",
+      "price": "8580",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-09T06:05:17.114846+00:00",
+      "source": "NAVER_POLLING_DAILY_CLOSE_V1"
+    },
+    {
+      "code": "495040",
+      "price": "30430",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-09T06:05:17.228874+00:00",
+      "source": "NAVER_POLLING_DAILY_CLOSE_V1"
+    },
+    {
+      "code": "495050",
+      "price": "30775",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-09T06:05:26.094593+00:00",
+      "source": "NAVER_POLLING_DAILY_CLOSE_V1"
+    },
+    {
+      "code": "495230",
+      "price": "30375",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-09T06:05:25.955368+00:00",
+      "source": "NAVER_POLLING_DAILY_CLOSE_V1"
+    },
+    {
+      "code": "495330",
+      "price": "30645",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-09T06:05:26.178695+00:00",
+      "source": "NAVER_POLLING_DAILY_CLOSE_V1"
+    },
+    {
+      "code": "495850",
+      "price": "30535",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-09T06:05:26.167100+00:00",
+      "source": "NAVER_POLLING_DAILY_CLOSE_V1"
+    },
+    {
+      "code": "496080",
+      "price": "30635",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-09T06:05:25.732506+00:00",
+      "source": "NAVER_POLLING_DAILY_CLOSE_V1"
+    },
+    {
+      "code": "497780",
+      "price": "9825",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-09T06:05:26.165364+00:00",
+      "source": "NAVER_POLLING_DAILY_CLOSE_V1"
+    },
+    {
+      "code": "498400",
+      "price": "19805",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-09T06:05:32.603874+00:00",
+      "source": "NAVER_POLLING_DAILY_CLOSE_V1"
+    },
+    {
+      "code": "498410",
+      "price": "11075",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-09T06:05:32.572708+00:00",
+      "source": "NAVER_POLLING_DAILY_CLOSE_V1"
+    },
+    {
+      "code": "498860",
+      "price": "15860",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-09T06:05:32.158491+00:00",
+      "source": "NAVER_POLLING_DAILY_CLOSE_V1"
+    },
+    {
+      "code": "499150",
+      "price": "10710",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-09T06:05:32.326817+00:00",
+      "source": "NAVER_POLLING_DAILY_CLOSE_V1"
+    },
+    {
+      "code": "0000D0",
+      "price": "8435.0",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-12T00:00:00+00:00",
+      "source": "FunETF_clsp_from_ETF82_inputs"
+    },
+    {
+      "code": "0013R0",
+      "price": "7355.0",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-12T00:00:00+00:00",
+      "source": "FunETF_clsp_from_ETF82_inputs"
+    },
+    {
+      "code": "0015E0",
+      "price": "10210.0",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-12T00:00:00+00:00",
+      "source": "FunETF_clsp_from_ETF82_inputs"
+    },
+    {
+      "code": "0015F0",
+      "price": "10280.0",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-12T00:00:00+00:00",
+      "source": "FunETF_clsp_from_ETF82_inputs"
+    },
+    {
+      "code": "0040X0",
+      "price": "8945.0",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-12T00:00:00+00:00",
+      "source": "FunETF_clsp_from_ETF82_inputs"
+    },
+    {
+      "code": "0040Y0",
+      "price": "7880.0",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-12T00:00:00+00:00",
+      "source": "FunETF_clsp_from_ETF82_inputs"
+    },
+    {
+      "code": "0046A0",
+      "price": "9255.0",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-12T00:00:00+00:00",
+      "source": "FunETF_clsp_from_ETF82_inputs"
+    },
+    {
+      "code": "0048J0",
+      "price": "13335.0",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-12T00:00:00+00:00",
+      "source": "FunETF_clsp_from_ETF82_inputs"
+    },
+    {
+      "code": "0049K0",
+      "price": "10930.0",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-12T00:00:00+00:00",
+      "source": "FunETF_clsp_from_ETF82_inputs"
+    },
+    {
+      "code": "0057H0",
+      "price": "11375.0",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-12T00:00:00+00:00",
+      "source": "FunETF_clsp_from_ETF82_inputs"
+    },
+    {
+      "code": "0073X0",
+      "price": "8145.0",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-12T00:00:00+00:00",
+      "source": "FunETF_clsp_from_ETF82_inputs"
+    },
+    {
+      "code": "0080X0",
+      "price": "10515.0",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-12T00:00:00+00:00",
+      "source": "FunETF_clsp_from_ETF82_inputs"
+    },
+    {
+      "code": "0085N0",
+      "price": "9385.0",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-12T00:00:00+00:00",
+      "source": "FunETF_clsp_from_ETF82_inputs"
+    },
+    {
+      "code": "0085P0",
+      "price": "9165.0",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-12T00:00:00+00:00",
+      "source": "FunETF_clsp_from_ETF82_inputs"
+    },
+    {
+      "code": "0086B0",
+      "price": "9510.0",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-12T00:00:00+00:00",
+      "source": "FunETF_clsp_from_ETF82_inputs"
+    },
+    {
+      "code": "0086C0",
+      "price": "9845.0",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-12T00:00:00+00:00",
+      "source": "FunETF_clsp_from_ETF82_inputs"
+    },
+    {
+      "code": "0089B0",
+      "price": "11160.0",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-12T00:00:00+00:00",
+      "source": "FunETF_clsp_from_ETF82_inputs"
+    },
+    {
+      "code": "0091C0",
+      "price": "9220.0",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-12T00:00:00+00:00",
+      "source": "FunETF_clsp_from_ETF82_inputs"
+    },
+    {
+      "code": "0132K0",
+      "price": "8010.0",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-12T00:00:00+00:00",
+      "source": "FunETF_clsp_from_ETF82_inputs"
+    },
+    {
+      "code": "0153P0",
+      "price": "9495.0",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-12T00:00:00+00:00",
+      "source": "FunETF_clsp_from_ETF82_inputs"
+    },
+    {
+      "code": "0174J0",
+      "price": "8775.0",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-12T00:00:00+00:00",
+      "source": "FunETF_clsp_from_ETF82_inputs"
+    },
+    {
+      "code": "0177N0",
+      "price": "14250.0",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-12T00:00:00+00:00",
+      "source": "FunETF_clsp_from_ETF82_inputs"
+    },
+    {
+      "code": "0183V0",
+      "price": "11725.0",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-12T00:00:00+00:00",
+      "source": "FunETF_clsp_from_ETF82_inputs"
+    },
+    {
+      "code": "0192S0",
+      "price": "9340.0",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-12T00:00:00+00:00",
+      "source": "FunETF_clsp_from_ETF82_inputs"
+    },
+    {
+      "code": "0194N0",
+      "price": "11230.0",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-12T00:00:00+00:00",
+      "source": "FunETF_clsp_from_ETF82_inputs"
+    },
+    {
+      "code": "0194R0",
+      "price": "8030.0",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-12T00:00:00+00:00",
+      "source": "FunETF_clsp_from_ETF82_inputs"
+    },
+    {
+      "code": "0203D0",
+      "price": "8820.0",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-12T00:00:00+00:00",
+      "source": "FunETF_clsp_from_ETF82_inputs"
+    },
+    {
+      "code": "0216K0",
+      "price": "8945.0",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-12T00:00:00+00:00",
+      "source": "FunETF_clsp_from_ETF82_inputs"
+    },
+    {
+      "code": "0220A0",
+      "price": "8475.0",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-12T00:00:00+00:00",
+      "source": "FunETF_clsp_from_ETF82_inputs"
+    },
+    {
+      "code": "0224X0",
+      "price": "9690.0",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-12T00:00:00+00:00",
+      "source": "FunETF_clsp_from_ETF82_inputs"
+    },
+    {
+      "code": "0233A0",
+      "price": "10580.0",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-12T00:00:00+00:00",
+      "source": "FunETF_clsp_from_ETF82_inputs"
+    },
+    {
+      "code": "0233J0",
+      "price": "10305.0",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-12T00:00:00+00:00",
+      "source": "FunETF_clsp_from_ETF82_inputs"
+    },
+    {
+      "code": "0238P0",
+      "price": "10025.0",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-12T00:00:00+00:00",
+      "source": "FunETF_clsp_from_ETF82_inputs"
+    },
+    {
+      "code": "136340",
+      "price": "104090.0",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-12T00:00:00+00:00",
+      "source": "FunETF_clsp_from_ETF82_inputs"
+    },
+    {
+      "code": "153130",
+      "price": "113345.0",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-12T00:00:00+00:00",
+      "source": "FunETF_clsp_from_ETF82_inputs"
+    },
+    {
+      "code": "181480",
+      "price": "77840.0",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-12T00:00:00+00:00",
+      "source": "FunETF_clsp_from_ETF82_inputs"
+    },
+    {
+      "code": "182480",
+      "price": "12610.0",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-12T00:00:00+00:00",
+      "source": "FunETF_clsp_from_ETF82_inputs"
+    },
+    {
+      "code": "214980",
+      "price": "114645.0",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-12T00:00:00+00:00",
+      "source": "FunETF_clsp_from_ETF82_inputs"
+    },
+    {
+      "code": "237370",
+      "price": "15480.0",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-12T00:00:00+00:00",
+      "source": "FunETF_clsp_from_ETF82_inputs"
+    },
+    {
+      "code": "251600",
+      "price": "15035.0",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-12T00:00:00+00:00",
+      "source": "FunETF_clsp_from_ETF82_inputs"
+    },
+    {
+      "code": "273140",
+      "price": "114755.0",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-12T00:00:00+00:00",
+      "source": "FunETF_clsp_from_ETF82_inputs"
+    },
+    {
+      "code": "284430",
+      "price": "20030.0",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-12T00:00:00+00:00",
+      "source": "FunETF_clsp_from_ETF82_inputs"
+    },
+    {
+      "code": "316300",
+      "price": "11835.0",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-12T00:00:00+00:00",
+      "source": "FunETF_clsp_from_ETF82_inputs"
+    },
+    {
+      "code": "329200",
+      "price": "4035.0",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-12T00:00:00+00:00",
+      "source": "FunETF_clsp_from_ETF82_inputs"
+    },
+    {
+      "code": "329650",
+      "price": "13975.0",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-12T00:00:00+00:00",
+      "source": "FunETF_clsp_from_ETF82_inputs"
+    },
+    {
+      "code": "329660",
+      "price": "17605.0",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-12T00:00:00+00:00",
+      "source": "FunETF_clsp_from_ETF82_inputs"
+    },
+    {
+      "code": "329670",
+      "price": "21560.0",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-12T00:00:00+00:00",
+      "source": "FunETF_clsp_from_ETF82_inputs"
+    },
+    {
+      "code": "332610",
+      "price": "121300.0",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-12T00:00:00+00:00",
+      "source": "FunETF_clsp_from_ETF82_inputs"
+    },
+    {
+      "code": "332620",
+      "price": "81005.0",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-12T00:00:00+00:00",
+      "source": "FunETF_clsp_from_ETF82_inputs"
+    },
+    {
+      "code": "341850",
+      "price": "4565.0",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-12T00:00:00+00:00",
+      "source": "FunETF_clsp_from_ETF82_inputs"
+    },
+    {
+      "code": "352540",
+      "price": "10420.0",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-12T00:00:00+00:00",
+      "source": "FunETF_clsp_from_ETF82_inputs"
+    },
+    {
+      "code": "352560",
+      "price": "11200.0",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-12T00:00:00+00:00",
+      "source": "FunETF_clsp_from_ETF82_inputs"
+    },
+    {
+      "code": "423160",
+      "price": "110770.0",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-12T00:00:00+00:00",
+      "source": "FunETF_clsp_from_ETF82_inputs"
+    },
+    {
+      "code": "429740",
+      "price": "6060.0",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-12T00:00:00+00:00",
+      "source": "FunETF_clsp_from_ETF82_inputs"
+    },
+    {
+      "code": "437070",
+      "price": "55765.0",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-12T00:00:00+00:00",
+      "source": "FunETF_clsp_from_ETF82_inputs"
+    },
+    {
+      "code": "437080",
+      "price": "93960.0",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-12T00:00:00+00:00",
+      "source": "FunETF_clsp_from_ETF82_inputs"
+    },
+    {
+      "code": "438330",
+      "price": "115780.0",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-12T00:00:00+00:00",
+      "source": "FunETF_clsp_from_ETF82_inputs"
+    },
+    {
+      "code": "440340",
+      "price": "11265.0",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-12T00:00:00+00:00",
+      "source": "FunETF_clsp_from_ETF82_inputs"
+    },
+    {
+      "code": "448330",
+      "price": "17545.0",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-12T00:00:00+00:00",
+      "source": "FunETF_clsp_from_ETF82_inputs"
+    },
+    {
+      "code": "453850",
+      "price": "6690.0",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-12T00:00:00+00:00",
+      "source": "FunETF_clsp_from_ETF82_inputs"
+    },
+    {
+      "code": "455030",
+      "price": "11485.0",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-12T00:00:00+00:00",
+      "source": "FunETF_clsp_from_ETF82_inputs"
+    },
+    {
+      "code": "458260",
+      "price": "44515.0",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-12T00:00:00+00:00",
+      "source": "FunETF_clsp_from_ETF82_inputs"
+    },
+    {
+      "code": "459580",
+      "price": "1074340.0",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-12T00:00:00+00:00",
+      "source": "FunETF_clsp_from_ETF82_inputs"
+    },
+    {
+      "code": "464470",
+      "price": "43435.0",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-12T00:00:00+00:00",
+      "source": "FunETF_clsp_from_ETF82_inputs"
+    },
+    {
+      "code": "468370",
+      "price": "10030.0",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-12T00:00:00+00:00",
+      "source": "FunETF_clsp_from_ETF82_inputs"
+    },
+    {
+      "code": "468630",
+      "price": "10135.0",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-12T00:00:00+00:00",
+      "source": "FunETF_clsp_from_ETF82_inputs"
+    },
+    {
+      "code": "471460",
+      "price": "46340.0",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-12T00:00:00+00:00",
+      "source": "FunETF_clsp_from_ETF82_inputs"
+    },
+    {
+      "code": "472830",
+      "price": "7110.0",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-12T00:00:00+00:00",
+      "source": "FunETF_clsp_from_ETF82_inputs"
+    },
+    {
+      "code": "472870",
+      "price": "6245.0",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-12T00:00:00+00:00",
+      "source": "FunETF_clsp_from_ETF82_inputs"
+    },
+    {
+      "code": "473330",
+      "price": "7240.0",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-12T00:00:00+00:00",
+      "source": "FunETF_clsp_from_ETF82_inputs"
+    },
+    {
+      "code": "475080",
+      "price": "7815.0",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-12T00:00:00+00:00",
+      "source": "FunETF_clsp_from_ETF82_inputs"
+    },
+    {
+      "code": "476550",
+      "price": "6300.0",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-12T00:00:00+00:00",
+      "source": "FunETF_clsp_from_ETF82_inputs"
+    },
+    {
+      "code": "476750",
+      "price": "6725.0",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-12T00:00:00+00:00",
+      "source": "FunETF_clsp_from_ETF82_inputs"
+    },
+    {
+      "code": "476760",
+      "price": "8080.0",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-12T00:00:00+00:00",
+      "source": "FunETF_clsp_from_ETF82_inputs"
+    },
+    {
+      "code": "476800",
+      "price": "4200.0",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-12T00:00:00+00:00",
+      "source": "FunETF_clsp_from_ETF82_inputs"
+    },
+    {
+      "code": "480460",
+      "price": "9100.0",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-12T00:00:00+00:00",
+      "source": "FunETF_clsp_from_ETF82_inputs"
+    },
+    {
+      "code": "481060",
+      "price": "6970.0",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-12T00:00:00+00:00",
+      "source": "FunETF_clsp_from_ETF82_inputs"
+    },
+    {
+      "code": "481340",
+      "price": "7665.0",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-12T00:00:00+00:00",
+      "source": "FunETF_clsp_from_ETF82_inputs"
+    },
+    {
+      "code": "484790",
+      "price": "7710.0",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-12T00:00:00+00:00",
+      "source": "FunETF_clsp_from_ETF82_inputs"
+    },
+    {
+      "code": "490490",
+      "price": "10305.0",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-12T00:00:00+00:00",
+      "source": "FunETF_clsp_from_ETF82_inputs"
+    },
+    {
+      "code": "497880",
+      "price": "50080.0",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-12T00:00:00+00:00",
+      "source": "FunETF_clsp_from_ETF82_inputs"
+    },
+    {
+      "code": "499660",
+      "price": "1001025.0",
+      "trade_date": "2026-10-08",
+      "as_of": null,
+      "market_status": "closed",
+      "price_type": "close",
+      "fetched_at": "2026-10-12T00:00:00+00:00",
+      "source": "FunETF_clsp_from_ETF82_inputs"
+    }
+  ]
+}
